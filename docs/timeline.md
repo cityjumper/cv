@@ -60,7 +60,7 @@ Twenty years, mapped end to end — including the years running two ventures and
 !!! abstract "Software Engineer · Oceanscan"
     **Jan 2007 – Dec 2008 · 2 yrs**
 
-    System integration and acoustic signal processing for sonar applications. Portugal :flag_pt:
+    System integration and acoustic signal processing for sonar applications. Scotland :scotland:
 
 !!! info "Consultant · Altran CIS"
     **Dec 2005 – Dec 2006 · 1 yr 1 mo**

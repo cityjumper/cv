@@ -75,7 +75,7 @@ Still an active member of the MATLAB Central community since 2011 — rank 549 o
 
 ## ![Oceanscan](assets/logos/oceanscan.png){ width="40" } Oceanscan
 
-**Software Engineer** · Jan 2007 – Dec 2008 · 2 yrs · Portugal :flag_pt:
+**Software Engineer** · Jan 2007 – Dec 2008 · 2 yrs · Scotland :scotland:
 
 Delivered system integration from sonar GUIs to acoustic signal-processing algorithms, working across mechanical, electrical, and software teams, with systems testing as a core responsibility.
 
