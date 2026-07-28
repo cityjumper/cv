@@ -38,6 +38,14 @@ Eight hands-on demos of the newest MATLAB features, aimed at both newcomers and 
 
 A recurring talk given at nearly every MATLAB release, walking the community through the newest features — in person and, through the pandemic, online: R2019a (May 2019, HTC), R2019b (Oct 2019, ICT), R2020a (Apr 2020, online), R2020b (Oct 2020, online), and R2021a (May 2021, online).
 
+### ![MathWorks](assets/logos/mathworks.png){ width="36" } MATLAB and Simulink Racing Lounge: How to Make Your Simulink Experience More Productive
+
+**MathWorks** · Sep 2015 · with Christoph Hahn
+
+Productivity tips for Simulink users — Quick Typing for faster model creation, Fast Restart and JIT-compiled simulation, the Data Inspector, model variants, and file comparison tools.
+
+[Watch on mathworks.com](https://nl.mathworks.com/videos/matlab-and-simulink-racing-lounge-how-to-make-your-simulink-experience-more-productive-107548.html){ target=_blank rel="noreferrer noopener" }
+
 ### Using MATLAB with Hardware-in-the-Loop
 
 Technical talk on hardware-in-the-loop testing with MATLAB and Simulink, delivered during the MathWorks years. [View slides (PDF)](assets/using-matlab-with-hardware-in-the-loop.pdf)

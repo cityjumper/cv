@@ -31,6 +31,7 @@ A hub of browser games — Sudoku, Chess, Connect Four, Minesweeper, and more �
 
 [brainportai.com](https://www.brainportai.com){ target=_blank rel="noreferrer noopener" }
 
-## Fun Fact
+## Fun Facts
 
-Born in South Africa :flag_za:, and has since lived in the Netherlands :flag_nl:, Singapore :flag_sg:, Hong Kong :flag_hk:, Macau :flag_mo:, Portugal :flag_pt:, Scotland :scotland:, and back in the Netherlands :flag_nl:.
+- Born in South Africa :flag_za:, and has since lived in the Netherlands :flag_nl:, Singapore :flag_sg:, Hong Kong :flag_hk:, Macau :flag_mo:, Portugal :flag_pt:, Scotland :scotland:, and back in the Netherlands :flag_nl:.
+- Holds a US patent from the MathWorks years: [US10275227B1 — Determining Functional Equivalence of Configurations of a Model](https://patents.google.com/patent/US10275227B1){ target=_blank rel="noreferrer noopener" }.
