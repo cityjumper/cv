@@ -20,6 +20,7 @@ nav = [
   { "Events Organized" = "events.md" },
   { "Podcast Episodes" = "podcast.md" },
   { "Talks Given" = "talks.md" },
+  { "Network" = "network.md" },
   { "Hobbies" = "hobbies.md" },
   { "Languages" = "languages.md" },
 ]

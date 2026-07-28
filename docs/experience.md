@@ -8,14 +8,13 @@ Twenty years spanning engineering, technical sales, entrepreneurship, and consul
 
 Supporting delivery and consulting work in the Eindhoven area.
 
+- **ProRail** — Front-end Tester and Architect for [railmaps.nl](https://www.railmaps.nl).
+
 **Director Consulting Services** · Mar 2025 – Feb 2026 · 1 yr · Eindhoven Area, Netherlands :flag_nl:
 
-Directed consulting delivery and service growth on rejoining CGI, ahead of moving into a hands-on Consultant role.
+Directed consulting delivery and service growth on rejoining CGI, ahead of moving into a hands-on Consultant role. Managed a team of 17 people across the Eindhoven region, against a sales target of over €4M.
 
-Client assignments:
-
-- **ASML** — Led the migration from Subversion to Git for hundreds of developers.
-- **ProRail** — Front-end Tester and Architect for [railmaps.nl](https://www.railmaps.nl).
+- **ASML** — Worked as Senior Consultant, leading the migration from Subversion to Git for hundreds of developers.
 
 [cgi.com/nl/en](https://www.cgi.com/nl/en){ target=_blank rel="noreferrer noopener" }
 
@@ -63,6 +62,8 @@ Ran three ventures at once between 2019 and 2021 — VersionBay, MATLAB Coders, 
 
     Led definition and execution of MathWorks' global Academic strategy, partnering with universities worldwide to grow MATLAB and Simulink adoption in teaching, learning, and research — capping 8+ years at the company that started as an application engineer in embedded code generation.
 
+    Collaborated with Arduino to drive the Engineering Kit that Arduino used to offer, and helped create the MathWorks Academia keynote — delivered alongside the main company keynote — two years running.
+
 === "Industry Manager – Education"
 
     **Jan 2014 – Jan 2017 · 3 yrs 1 mo**
@@ -82,6 +83,8 @@ Ran three ventures at once between 2019 and 2021 — VersionBay, MATLAB Coders, 
     Demonstrated MathWorks tools through hands-on customer engagements centred on rapid prototyping, automatic code generation, and code verification/validation, including deploying MATLAB into .NET and Java environments.
 
 Also helped drive, organize, and moderate the MathWorks Research Summit for three years.
+
+A strong believer in and promoter of MathWorks' support for RoboCup — volunteering at the University-level competition in 2001, then driving MathWorks' backing of RoboCup over the following years.
 
 Still an active member of the MATLAB Central community since 2011 — rank 549 of 301,994, 70 Answers contributed, 3 files published, and 2,608 total downloads.
 

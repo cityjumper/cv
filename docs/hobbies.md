@@ -42,5 +42,7 @@ Maintainer of a small family of joke tools for conference and meetup MCs — "no
 
 ## Fun Facts
 
+- Grew up in an actuarial family.
 - Born in South Africa :flag_za:, and has since lived in the Netherlands :flag_nl:, Singapore :flag_sg:, Hong Kong :flag_hk:, Macau :flag_mo:, Portugal :flag_pt:, Scotland :scotland:, and back in the Netherlands :flag_nl:.
+- Started at a Portuguese school in Macau :flag_mo: at age 7, in a class split evenly between Cantonese and Portuguese speakers — while only speaking English. Three years later, at age 10, was the best student in the country and won a prize for it.
 - Holds a US patent from the MathWorks years: [US10275227B1 — Determining Functional Equivalence of Configurations of a Model](https://patents.google.com/patent/US10275227B1){ target=_blank rel="noreferrer noopener" }.

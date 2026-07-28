@@ -15,5 +15,5 @@ The top engineering university in Portugal. Completed an MSc with a strong focus
 
 ## Earlier Education
 
-- **Macau** :flag_mo: — At age 10, won a prize for best student in a Portuguese school, having arrived speaking neither Portuguese nor Cantonese.
-- **High School, Portugal** :flag_pt: — Competed in Math Olympiads, reaching the national finals.
+- **Macau** :flag_mo: — Started at a Portuguese school at age 7, in a class split evenly between Cantonese and Portuguese speakers, speaking only English. Three years later, at age 10, was the best student in the country and won a prize for it.
+- **Anselmo de Andrade High School, Portugal** :flag_pt: — Represented the school in Math Olympiads, progressing all the way to the international level.

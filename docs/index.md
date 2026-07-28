@@ -2,7 +2,7 @@
 
 **Consultant, technologist, and two-time founder** based in Eindhoven, Netherlands.
 
-A consultant, technologist, and two-time founder based in Eindhoven, Netherlands. Over 20 years I've moved from control-theory engineering at MathWorks to co-founding and running software businesses, to consulting delivery at CGI — while chairing PyData Eindhoven's community for six years and co-hosting the Inspiring Computing podcast.
+**Embracing Change** is my motto — I love adjusting to new technologies and leveraging the right tools for the right job. I'm a consultant, technologist, and two-time founder based in Eindhoven, Netherlands. Over 20 years I've moved from control-theory engineering at MathWorks to co-founding and running software businesses, to consulting delivery at CGI — while chairing PyData Eindhoven's community for six years and co-hosting the Inspiring Computing podcast.
 
 [Get in touch](mailto:gareth.bj.thomas@gmail.com){ .md-button .md-button--primary }
 [LinkedIn profile](https://nl.linkedin.com/in/g-thomas){ .md-button }
@@ -38,6 +38,6 @@ A consultant, technologist, and two-time founder based in Eindhoven, Netherlands
 
 I'm a consultant and two-time founder with a control-theory engineering foundation. After nearly a decade at MathWorks — from application engineer to Business Development Manager for global Academic strategy — I co-founded VersionBay and founded MATLAB Coders, running both alongside a stint as Country Manager Benelux at Open iT. Today I work as a Consultant at CGI Nederland after a year directing consulting services, having previously led delivery, sales enablement, and technical strategy across the US, Portugal, and the Netherlands. Alongside client work, I chair PyData Eindhoven's organizing committee and co-host the Inspiring Computing podcast — both going on their sixth and fourth year respectively.
 
-Raised in an actuarial family, and now married with two kids. My personal motto is **Embracing Change** — and I try to live it, not just say it: I build my own apps ([Meetello](hobbies.md#built-maintain), [Brainport AI's Game Hub](hobbies.md#built-maintain)), lean on AI daily to accelerate my work, and even used it to build this very CV site.
+Raised in an actuarial family, and now married with two kids. I try to live my motto, not just say it: I build my own apps ([Meetello](hobbies.md#built-maintain), [Brainport AI's Game Hub](hobbies.md#built-maintain)), lean on AI daily to accelerate my work, and even used it to build this very CV site.
 
 See [Experience](experience.md), [Education](education.md), the full [Timeline](timeline.md), [Events Organized](events.md), [Podcast Episodes](podcast.md), [Talks Given](talks.md), and [Hobbies](hobbies.md) for details.
