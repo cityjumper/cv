@@ -12,6 +12,11 @@ Supporting delivery and consulting work in the Eindhoven area.
 
 Directed consulting delivery and service growth on rejoining CGI, ahead of moving into a hands-on Consultant role.
 
+Client assignments:
+
+- **ASML** — Led the migration from Subversion to Git for hundreds of developers.
+- **ProRail** — Front-end Tester and Architect for [railmaps.nl](https://www.railmaps.nl).
+
 [cgi.com/nl/en](https://www.cgi.com/nl/en){ target=_blank rel="noreferrer noopener" }
 
 ## Entrepreneurial ventures
@@ -25,6 +30,14 @@ Ran three ventures at once between 2019 and 2021 — VersionBay, MATLAB Coders, 
     **Nov 2018 – Mar 2025 · 6 yrs 5 mo**
 
     Co-founded and ran the company for six and a half years, empowering people to leverage state-of-the-art software stacks.
+
+    Client assignments:
+
+    - **ASML** — Regression testing.
+    - **DNB** (De Nederlandsche Bank) — Financial modeling and application deployment.
+    - **ESA** (European Space Agency) — Updating Simulink models to newer versions.
+
+    Also built VersionBay's own training content and products, including tools for measuring MATLAB usage and automatic regression-test generation with automatic pipeline creation.
 
     [versionbay.com](https://versionbay.com/){ target=_blank rel="noreferrer noopener" }
 
