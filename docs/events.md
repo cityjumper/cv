@@ -99,3 +99,9 @@ Co-hosts recurring evening events at ASML, pairing external speakers with networ
 FOSS4GNL 2026 — Free and Open Source Software for Geospatial — a two-day conference and workshop event organized by OSGeo.nl and the Jantina Tammes School (RUG), Jul 8–9, 2026, in Groningen.
 
 [foss4g.nl](https://foss4g.nl){ target=_blank rel="noreferrer noopener" }
+
+## ![TEDx](assets/logos/tedxeindhoven.png){ width="60" } TEDxEindhoven
+
+**Sponsor Manager** (part-time volunteer) · Eindhoven Area, Netherlands :flag_nl:
+
+[tedxeindhoven.nl](https://www.tedxeindhoven.nl){ target=_blank rel="noreferrer noopener" }
