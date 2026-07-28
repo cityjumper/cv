@@ -6,6 +6,17 @@
 - Attends maker faires.
 - Woodworking.
 
+## Travel
+
+Visited over 60 countries. Highlights include Interrailing across Europe, riding the Trans-Siberian Railway, and a road trip across the USA.
+
+## Sports & Adventure
+
+- Football with the kids and tennis tournaments.
+- Passionate go-kart racer.
+- Represented the Macau :flag_mo: Judo team (blue belt) at a young age.
+- Tandem skydiving from Évora, Portugal :flag_pt: — before becoming a dad.
+
 ## Built & Maintain
 
 ### ![Meetello](assets/logos/meetello.png){ width="40" } Meetello
