@@ -2,9 +2,11 @@
 
 ## ![Inspiring Computing](assets/logos/inspiringcomputing.jpg){ width="60" } Inspiring Computing
 
-**Podcaster** · Jan 2023 – Present · 3 yrs 7 mo · Eindhoven Area, Netherlands :flag_nl:
+**Co-host** (with Andrew Rutgers) · Jul 2021 – Present · 5 yrs · Eindhoven Area, Netherlands :flag_nl:
 
 *"Where computing meets the real world"* — conversations with advanced users of MATLAB, Python, and Julia who use these tools to deepen understanding and gain insight, from open-source maintainers to founders and researchers.
+
+Launched in July 2021 as **Tangible Computing**, co-founded and co-hosted with Andrew Rutgers (CEO of ChargeSim); continues today as **Inspiring Computing**.
 
 [Listen on inspiringcomputing.com](https://www.inspiringcomputing.com/2107763/episodes){ target=_blank rel="noreferrer noopener" }
 

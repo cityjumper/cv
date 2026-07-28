@@ -68,7 +68,10 @@ Ran three ventures at once between 2019 and 2021 — VersionBay, MATLAB Coders, 
 
     Demonstrated MathWorks tools through hands-on customer engagements centred on rapid prototyping, automatic code generation, and code verification/validation, including deploying MATLAB into .NET and Java environments.
 
-[mathworks.com](https://www.mathworks.com/){ target=_blank rel="noreferrer noopener" }
+Still an active member of the MATLAB Central community since 2011 — rank 549 of 301,994, 70 Answers contributed, 3 files published, and 2,608 total downloads.
+
+[mathworks.com](https://www.mathworks.com/){ target=_blank rel="noreferrer noopener" } ·
+[MATLAB Central profile](https://nl.mathworks.com/matlabcentral/profile/authors/1662033){ target=_blank rel="noreferrer noopener" }
 
 ## ![Oceanscan](assets/logos/oceanscan.png){ width="40" } Oceanscan
 
