@@ -38,4 +38,6 @@ A consultant, technologist, and two-time founder based in Eindhoven, Netherlands
 
 I'm a consultant and two-time founder with a control-theory engineering foundation. After nearly a decade at MathWorks — from application engineer to Business Development Manager for global Academic strategy — I co-founded VersionBay and founded MATLAB Coders, running both alongside a stint as Country Manager Benelux at Open iT. Today I work as a Consultant at CGI Nederland after a year directing consulting services, having previously led delivery, sales enablement, and technical strategy across the US, Portugal, and the Netherlands. Alongside client work, I chair PyData Eindhoven's organizing committee and co-host the Inspiring Computing podcast — both going on their sixth and fourth year respectively.
 
+Raised in an actuarial family, and now married with two kids. My personal motto is **Embracing Change** — and I try to live it, not just say it: I build my own apps ([Meetello](hobbies.md#built-maintain), [Brainport AI's Game Hub](hobbies.md#built-maintain)), lean on AI daily to accelerate my work, and even used it to build this very CV site.
+
 See [Experience](experience.md), [Education](education.md), the full [Timeline](timeline.md), [Events Organized](events.md), [Podcast Episodes](podcast.md), [Talks Given](talks.md), and [Hobbies](hobbies.md) for details.

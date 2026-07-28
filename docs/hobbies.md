@@ -31,6 +31,15 @@ A hub of browser games — Sudoku, Chess, Connect Four, Minesweeper, and more �
 
 [brainportai.com](https://www.brainportai.com){ target=_blank rel="noreferrer noopener" }
 
+### MATLAB Jokes, Julia Jokes & Rust Jokes
+
+Maintainer of a small family of joke tools for conference and meetup MCs — "not racist, not sexual, not political," just a smile between talks. MATLAB Jokes started life as a 90-minute exercise in shipping a MATLAB toolbox from scratch to MATLAB Central File Exchange and the Add-Ons panel.
+
+[MATLAB Jokes on GitHub](https://github.com/versionbaygt/MATLABJokes){ target=_blank rel="noreferrer noopener" } ·
+[on File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/172039-jokes-in-matlab/){ target=_blank rel="noreferrer noopener" } ·
+[Julia Jokes on GitHub](https://github.com/cityjumper/Jokes.jl){ target=_blank rel="noreferrer noopener" } ·
+[Rust Jokes on GitHub](https://github.com/versionbaygt/jokes_rust){ target=_blank rel="noreferrer noopener" }
+
 ## Fun Facts
 
 - Born in South Africa :flag_za:, and has since lived in the Netherlands :flag_nl:, Singapore :flag_sg:, Hong Kong :flag_hk:, Macau :flag_mo:, Portugal :flag_pt:, Scotland :scotland:, and back in the Netherlands :flag_nl:.
