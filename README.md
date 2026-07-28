@@ -1,15 +1,22 @@
-# Static CV Site
+# Gareth Thomas — CV
 
-This repository now contains a polished static CV website built with Tailwind CSS and vanilla JavaScript. It is designed to be published directly to GitHub Pages from the repository root.
+A CV site built with [Zensical](https://zensical.org/), the modern static site generator from the Material for MkDocs team. Content is authored in Markdown, dependencies are managed with [uv](https://docs.astral.sh/uv/), and the site is published to GitHub Pages via GitHub Actions.
 
 ## Structure
 
-- `index.html` — main CV page
-- `assets/app.js` — small client-side interactions
+- `docs/` — Markdown content (one file per nav page: Home, Experience, Education, Timeline, Community & Talks, Languages)
+- `docs/assets/` — downloadable PDFs (CV, thesis, talk slides)
+- `zensical.toml` — site config: theme, navigation, palette, extensions
+- `pyproject.toml` / `uv.lock` — Python environment, managed by uv
+
+## Local development
+
+```bash
+uv sync              # install Zensical and dependencies into .venv
+uv run zensical serve # serve the site locally with live reload
+uv run zensical build # build the static site into site/
+```
 
 ## Publish on GitHub Pages
 
-1. Commit these files to your repository.
-2. In GitHub, open the repository settings.
-3. Navigate to Pages and select the branch to publish (usually `main`).
-4. Save the settings and wait for the site to build.
+The `.github/workflows/deploy-pages.yml` workflow builds the site with uv + Zensical and deploys the `site/` output to GitHub Pages automatically on every push to `main`. In the repository's Settings → Pages, set the source to "GitHub Actions".
