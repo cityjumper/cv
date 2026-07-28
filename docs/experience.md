@@ -86,6 +86,8 @@ Also helped drive, organize, and moderate the MathWorks Research Summit for thre
 
 A strong believer in and promoter of MathWorks' support for RoboCup — volunteering at the University-level competition in 2001, then driving MathWorks' backing of RoboCup over the following years.
 
+Visited and worked with several companies and institutions across the MathWorks years, giving presentations and demos and helping teams put MATLAB and Simulink to work: ESA, CNH, ASML, VDL, Punch, and TU/e.
+
 Still an active member of the MATLAB Central community since 2011 — rank 549 of 301,994, 70 Answers contributed, 3 files published, and 2,608 total downloads.
 
 [mathworks.com](https://www.mathworks.com/){ target=_blank rel="noreferrer noopener" } ·
