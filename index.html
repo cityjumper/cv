@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A polished, static CV website built with Tailwind CSS and vanilla JavaScript." />
+    <title>Your Name | CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#f5f7ff',
+                100: '#e5ebff',
+                500: '#4f46e5',
+                600: '#4338ca',
+                700: '#3730a3'
+              }
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+  <body class="min-h-screen bg-slate-950 text-slate-100 antialiased transition-colors duration-300">
+    <div class="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,_rgba(79,70,229,0.28),_transparent_40%)]"></div>
+
+    <header class="sticky top-0 z-30 border-b border-white/10 bg-slate-950/80 backdrop-blur">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
+        <a href="#top" class="text-lg font-semibold tracking-wide text-white">Your Name</a>
+        <button id="menuButton" class="rounded-lg border border-white/15 p-2 text-slate-300 lg:hidden" aria-label="Toggle menu">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+        <nav id="navMenu" class="hidden gap-6 text-sm text-slate-300 lg:flex">
+          <a href="#about" class="transition hover:text-white">About</a>
+          <a href="#experience" class="transition hover:text-white">Experience</a>
+          <a href="#skills" class="transition hover:text-white">Skills</a>
+          <a href="#contact" class="transition hover:text-white">Contact</a>
+        </nav>
+        <button id="themeToggle" class="hidden rounded-full border border-white/15 bg-white/10 px-3 py-2 text-sm text-slate-200 lg:inline-flex" type="button">
+          Toggle theme
+        </button>
+      </div>
+      <div id="mobileMenu" class="border-t border-white/10 bg-slate-950/95 px-6 py-4 lg:hidden hidden">
+        <div class="flex flex-col gap-3 text-sm text-slate-300">
+          <a href="#about" class="transition hover:text-white">About</a>
+          <a href="#experience" class="transition hover:text-white">Experience</a>
+          <a href="#skills" class="transition hover:text-white">Skills</a>
+          <a href="#contact" class="transition hover:text-white">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top" class="mx-auto flex max-w-6xl flex-col gap-10 px-6 py-16 lg:px-8 lg:py-24">
+      <section class="grid gap-10 rounded-3xl border border-white/10 bg-white/5 p-8 shadow-2xl shadow-black/20 backdrop-blur lg:grid-cols-[1.2fr_0.8fr] lg:p-12">
+        <div class="space-y-6">
+          <span class="inline-flex rounded-full border border-brand-500/30 bg-brand-500/10 px-3 py-1 text-sm font-medium text-brand-100">Available for opportunities</span>
+          <div class="space-y-4">
+            <h1 class="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Hi, I’m <span class="text-brand-300">Your Name</span>.</h1>
+            <p class="max-w-2xl text-lg leading-8 text-slate-300">I build thoughtful products, write clear code, and turn ideas into polished digital experiences. This page is a clean starting point for your CV and personal brand.</p>
+          </div>
+          <div class="flex flex-wrap gap-3">
+            <a href="#contact" class="rounded-full bg-brand-600 px-5 py-3 font-medium text-white transition hover:bg-brand-700">Get in touch</a>
+            <a href="#experience" class="rounded-full border border-white/15 bg-white/10 px-5 py-3 font-medium text-slate-200 transition hover:bg-white/20">View experience</a>
+          </div>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-6">
+          <h2 class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">At a glance</h2>
+          <dl class="mt-6 space-y-4 text-sm text-slate-300">
+            <div class="flex items-center justify-between border-b border-white/10 pb-3">
+              <dt>Role</dt>
+              <dd class="font-medium text-white">Software Engineer</dd>
+            </div>
+            <div class="flex items-center justify-between border-b border-white/10 pb-3">
+              <dt>Location</dt>
+              <dd class="font-medium text-white">Remote / London</dd>
+            </div>
+            <div class="flex items-center justify-between border-b border-white/10 pb-3">
+              <dt>Focus</dt>
+              <dd class="font-medium text-white">Frontend & product engineering</dd>
+            </div>
+            <div class="flex items-center justify-between">
+              <dt>Languages</dt>
+              <dd class="font-medium text-white">Python, TypeScript, SQL</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="about" class="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+        <div class="rounded-3xl border border-white/10 bg-slate-900/70 p-8">
+          <h2 class="text-2xl font-semibold text-white">About</h2>
+          <p class="mt-4 text-slate-300 leading-7">I’m a curious builder who enjoys shaping clear, maintainable systems and user-friendly interfaces. My work combines product thinking, technical execution, and a genuine interest in making complex problems feel simple.</p>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-gradient-to-br from-brand-600/20 to-slate-900 p-8">
+          <h3 class="text-lg font-semibold text-white">Highlights</h3>
+          <ul class="mt-4 space-y-3 text-slate-300">
+            <li>• Led cross-functional delivery for web and internal tools.</li>
+            <li>• Built scalable frontends with strong accessibility habits.</li>
+            <li>• Enjoyed mentoring and improving engineering practices.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="experience" class="rounded-3xl border border-white/10 bg-slate-900/70 p-8">
+        <div class="flex items-end justify-between gap-4">
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.24em] text-brand-300">Experience</p>
+            <h2 class="mt-2 text-2xl font-semibold text-white">Selected roles</h2>
+          </div>
+          <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-sm text-slate-300">Updated recently</span>
+        </div>
+        <div class="mt-8 grid gap-6 md:grid-cols-2">
+          <article class="rounded-2xl border border-white/10 bg-slate-950/60 p-6">
+            <p class="text-sm text-brand-300">2023 — Present</p>
+            <h3 class="mt-2 text-xl font-semibold text-white">Senior Product Engineer</h3>
+            <p class="mt-3 text-slate-300">Designed and shipped customer-facing features with a strong focus on reliability and delightful UX.</p>
+          </article>
+          <article class="rounded-2xl border border-white/10 bg-slate-950/60 p-6">
+            <p class="text-sm text-brand-300">2020 — 2023</p>
+            <h3 class="mt-2 text-xl font-semibold text-white">Frontend Engineer</h3>
+            <p class="mt-3 text-slate-300">Worked across product teams to create performant interfaces and contribute to shared component libraries.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
+        <div class="rounded-3xl border border-white/10 bg-slate-900/70 p-8">
+          <h2 class="text-2xl font-semibold text-white">Core skills</h2>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">TypeScript</span>
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">React</span>
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">Tailwind CSS</span>
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">Python</span>
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">Testing</span>
+            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">Product thinking</span>
+          </div>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-gradient-to-br from-slate-800 to-slate-900 p-8">
+          <h3 class="text-lg font-semibold text-white">Quick facts</h3>
+          <div class="mt-6 space-y-4 text-sm text-slate-300">
+            <div class="flex items-center justify-between border-b border-white/10 pb-3">
+              <span>Education</span>
+              <span class="font-medium text-white">BSc Computer Science</span>
+            </div>
+            <div class="flex items-center justify-between border-b border-white/10 pb-3">
+              <span>Interests</span>
+              <span class="font-medium text-white">Design systems, AI, accessibility</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>Availability</span>
+              <span class="font-medium text-white">Open to new projects</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="border-t border-white/10 bg-slate-950/90">
+      <div class="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-8 text-sm text-slate-400 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+        <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+        <div class="flex flex-wrap items-center gap-3">
+          <a href="mailto:you@example.com" class="transition hover:text-white">you@example.com</a>
+          <button id="copyEmail" class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-slate-200 transition hover:bg-white/10" type="button">Copy email</button>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
