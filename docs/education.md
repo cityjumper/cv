@@ -1,8 +1,8 @@
 # Education
 
-## Instituto Superior Técnico
+## ![Instituto Superior Técnico](assets/logos/ist.png){ width="40" } Instituto Superior Técnico
 
-**MSc, Control Theory** · 2000 – 2005 · Lisbon, Portugal
+**MSc, Control Theory** · 2000 – 2005 · Lisbon, Portugal :flag_pt:
 
 Completed an MSc with a strong focus on control theory, systems thinking, embedded development, and practical engineering problem-solving.
 

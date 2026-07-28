@@ -8,6 +8,17 @@ A consultant, technologist, and two-time founder based in Eindhoven, Netherlands
 [LinkedIn profile](https://nl.linkedin.com/in/g-thomas){ .md-button }
 [Download CV PDF](assets/gareth-thomas-cv.pdf){ .md-button }
 
+## Where I've worked
+
+[![CGI](assets/logos/cgi.png){ width="48" }](experience.md#cgi-nederland)
+[![MathWorks](assets/logos/mathworks.png){ width="48" }](experience.md#mathworks)
+[![VersionBay](assets/logos/versionbay.png){ width="48" }](experience.md#entrepreneurial-ventures)
+[![Open iT](assets/logos/openit.png){ width="70" }](experience.md#entrepreneurial-ventures)
+[![Oceanscan](assets/logos/oceanscan.png){ width="48" }](experience.md#oceanscan)
+[![Altran CIS](assets/logos/altran.svg){ width="100" }](experience.md#altran-cis)
+[![PyData Eindhoven](assets/logos/pydata.png){ width="48" }](events.md)
+[![Inspiring Computing](assets/logos/inspiringcomputing.jpg){ width="48" }](podcast.md)
+
 ## At a glance
 
 | | |
@@ -27,9 +38,4 @@ A consultant, technologist, and two-time founder based in Eindhoven, Netherlands
 
 I'm a consultant and two-time founder with a control-theory engineering foundation. After nearly a decade at MathWorks — from application engineer to Business Development Manager for global Academic strategy — I co-founded VersionBay and founded MATLAB Coders, running both alongside a stint as Country Manager Benelux at Open iT. Today I work as a Consultant at CGI Nederland after a year directing consulting services, having previously led delivery, sales enablement, and technical strategy across the US, Portugal, and the Netherlands. Alongside client work, I chair PyData Eindhoven's organizing committee and co-host the Inspiring Computing podcast — both going on their sixth and fourth year respectively.
 
-See [Experience](experience.md), [Education](education.md), the full [Timeline](timeline.md), and [Community & Talks](community.md) for details.
-
-## Hobbies
-
-- Enjoys expanding perspective through reading, conversation, and exploration.
-- Values creativity, movement, and meaningful connection.
+See [Experience](experience.md), [Education](education.md), the full [Timeline](timeline.md), [Events Organized](events.md), [Podcast Episodes](podcast.md), [Talks Given](talks.md), and [Hobbies](hobbies.md) for details.
