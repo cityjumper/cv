@@ -13,11 +13,13 @@
           extend: {
             colors: {
               brand: {
-                50: '#f5f7ff',
-                100: '#e5ebff',
-                500: '#4f46e5',
-                600: '#4338ca',
-                700: '#3730a3'
+                50: '#f0fdf4',
+                100: '#dcfce7',
+                300: '#86efac',
+                400: '#4ade80',
+                500: '#22c55e',
+                600: '#16a34a',
+                700: '#15803d'
               }
             }
           }
@@ -55,19 +57,20 @@
     </header>
 
     <main id="top" class="mx-auto flex max-w-6xl flex-col gap-10 px-6 py-16 lg:px-8 lg:py-24">
-      <section class="grid gap-10 rounded-3xl border border-white/10 bg-white/5 p-8 shadow-2xl shadow-black/20 backdrop-blur lg:grid-cols-[1.2fr_0.8fr] lg:p-12">
+      <section class="grid gap-10 rounded-3xl border border-brand-400/20 bg-slate-900/85 p-8 shadow-2xl shadow-brand-500/10 backdrop-blur lg:grid-cols-[1.2fr_0.8fr] lg:p-12">
         <div class="space-y-6">
-          <span class="inline-flex rounded-full border border-brand-500/30 bg-brand-500/10 px-3 py-1 text-sm font-medium text-brand-100">Available for opportunities</span>
+          <span class="inline-flex rounded-full border border-brand-400/30 bg-brand-500/15 px-3 py-1 text-sm font-medium text-brand-100">Available for opportunities</span>
           <div class="space-y-4">
             <h1 class="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Hi, I’m <span class="text-brand-300">Gareth Thomas</span>.</h1>
-            <p class="max-w-2xl text-lg leading-8 text-slate-300">I’m a collaborative professional with experience spanning delivery, community engagement, speaking, and public-facing projects. This CV page brings together the work, interests, and experiences that shape my profile.</p>
+            <p class="max-w-2xl text-lg leading-8 text-slate-200">I’m a collaborative professional with experience spanning delivery, community engagement, speaking, and public-facing projects. This CV page brings together the work, interests, and experiences that shape my profile.</p>
           </div>
           <div class="flex flex-wrap gap-3">
             <a href="#contact" class="rounded-full bg-brand-600 px-5 py-3 font-medium text-white transition hover:bg-brand-700">Get in touch</a>
-            <a href="#cv" class="rounded-full border border-white/15 bg-white/10 px-5 py-3 font-medium text-slate-200 transition hover:bg-white/20">View CV</a>
+            <a href="https://nl.linkedin.com/in/g-thomas" target="_blank" rel="noreferrer" class="rounded-full border border-brand-400/30 bg-brand-500/10 px-5 py-3 font-medium text-brand-100 transition hover:bg-brand-500/20">LinkedIn profile</a>
+            <a href="assets/gareth-thomas-cv.pdf" download class="rounded-full border border-white/15 bg-white/10 px-5 py-3 font-medium text-slate-200 transition hover:bg-white/20">Download CV PDF</a>
           </div>
         </div>
-        <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-6">
+        <div class="rounded-2xl border border-brand-400/20 bg-slate-950/80 p-6">
           <h2 class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">At a glance</h2>
           <dl class="mt-6 space-y-4 text-sm text-slate-300">
             <div class="flex items-center justify-between border-b border-white/10 pb-3">
@@ -200,6 +203,8 @@
       <div class="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-8 text-sm text-slate-400 lg:flex-row lg:items-center lg:justify-between lg:px-8">
         <p>© <span id="year"></span> Gareth Thomas. All rights reserved.</p>
         <div class="flex flex-wrap items-center gap-3">
+          <a href="https://nl.linkedin.com/in/g-thomas" target="_blank" rel="noreferrer" class="transition hover:text-white">LinkedIn</a>
+          <a href="assets/gareth-thomas-cv.pdf" download class="transition hover:text-white">Download PDF</a>
           <a href="mailto:gareth.thomas@example.com" class="transition hover:text-white">gareth.thomas@example.com</a>
           <button id="copyEmail" class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-slate-200 transition hover:bg-white/10" type="button">Copy email</button>
         </div>
