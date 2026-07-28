@@ -3,6 +3,8 @@ const mobileMenu = document.getElementById('mobileMenu');
 const themeToggle = document.getElementById('themeToggle');
 const copyEmailButton = document.getElementById('copyEmail');
 const yearElement = document.getElementById('year');
+const tabButtons = Array.from(document.querySelectorAll('.tab-btn'));
+const tabPanels = Array.from(document.querySelectorAll('.tab-panel'));
 
 if (yearElement) {
   yearElement.textContent = new Date().getFullYear();
@@ -36,7 +38,7 @@ if (themeToggle) {
 
 if (copyEmailButton) {
   copyEmailButton.addEventListener('click', async () => {
-    const email = 'you@example.com';
+    const email = 'gareth.thomas@example.com';
     try {
       await navigator.clipboard.writeText(email);
       copyEmailButton.textContent = 'Copied!';
@@ -50,4 +52,27 @@ if (copyEmailButton) {
       }, 1500);
     }
   });
+}
+
+if (tabButtons.length && tabPanels.length) {
+  const switchTab = (targetId) => {
+    tabButtons.forEach((button) => {
+      const isActive = button.dataset.target === targetId;
+      button.classList.toggle('bg-brand-600', isActive);
+      button.classList.toggle('text-white', isActive);
+      button.classList.toggle('bg-white/5', !isActive);
+      button.classList.toggle('text-slate-200', !isActive);
+      button.setAttribute('aria-selected', String(isActive));
+    });
+
+    tabPanels.forEach((panel) => {
+      panel.classList.toggle('hidden', panel.id !== targetId);
+    });
+  };
+
+  tabButtons.forEach((button) => {
+    button.addEventListener('click', () => switchTab(button.dataset.target));
+  });
+
+  switchTab('professional');
 }

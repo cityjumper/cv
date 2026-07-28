@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="A polished, static CV website built with Tailwind CSS and vanilla JavaScript." />
-    <title>Your Name | CV</title>
+    <meta name="description" content="A polished, static CV website for Gareth Thomas built with Tailwind CSS and vanilla JavaScript." />
+    <title>Gareth Thomas | CV</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -30,7 +30,7 @@
 
     <header class="sticky top-0 z-30 border-b border-white/10 bg-slate-950/80 backdrop-blur">
       <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
-        <a href="#top" class="text-lg font-semibold tracking-wide text-white">Your Name</a>
+        <a href="#top" class="text-lg font-semibold tracking-wide text-white">Gareth Thomas</a>
         <button id="menuButton" class="rounded-lg border border-white/15 p-2 text-slate-300 lg:hidden" aria-label="Toggle menu">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -38,8 +38,7 @@
         </button>
         <nav id="navMenu" class="hidden gap-6 text-sm text-slate-300 lg:flex">
           <a href="#about" class="transition hover:text-white">About</a>
-          <a href="#experience" class="transition hover:text-white">Experience</a>
-          <a href="#skills" class="transition hover:text-white">Skills</a>
+          <a href="#cv" class="transition hover:text-white">CV</a>
           <a href="#contact" class="transition hover:text-white">Contact</a>
         </nav>
         <button id="themeToggle" class="hidden rounded-full border border-white/15 bg-white/10 px-3 py-2 text-sm text-slate-200 lg:inline-flex" type="button">
@@ -49,8 +48,7 @@
       <div id="mobileMenu" class="border-t border-white/10 bg-slate-950/95 px-6 py-4 lg:hidden hidden">
         <div class="flex flex-col gap-3 text-sm text-slate-300">
           <a href="#about" class="transition hover:text-white">About</a>
-          <a href="#experience" class="transition hover:text-white">Experience</a>
-          <a href="#skills" class="transition hover:text-white">Skills</a>
+          <a href="#cv" class="transition hover:text-white">CV</a>
           <a href="#contact" class="transition hover:text-white">Contact</a>
         </div>
       </div>
@@ -61,12 +59,12 @@
         <div class="space-y-6">
           <span class="inline-flex rounded-full border border-brand-500/30 bg-brand-500/10 px-3 py-1 text-sm font-medium text-brand-100">Available for opportunities</span>
           <div class="space-y-4">
-            <h1 class="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Hi, I’m <span class="text-brand-300">Your Name</span>.</h1>
-            <p class="max-w-2xl text-lg leading-8 text-slate-300">I build thoughtful products, write clear code, and turn ideas into polished digital experiences. This page is a clean starting point for your CV and personal brand.</p>
+            <h1 class="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Hi, I’m <span class="text-brand-300">Gareth Thomas</span>.</h1>
+            <p class="max-w-2xl text-lg leading-8 text-slate-300">I’m a collaborative professional with experience spanning delivery, community engagement, speaking, and public-facing projects. This CV page brings together the work, interests, and experiences that shape my profile.</p>
           </div>
           <div class="flex flex-wrap gap-3">
             <a href="#contact" class="rounded-full bg-brand-600 px-5 py-3 font-medium text-white transition hover:bg-brand-700">Get in touch</a>
-            <a href="#experience" class="rounded-full border border-white/15 bg-white/10 px-5 py-3 font-medium text-slate-200 transition hover:bg-white/20">View experience</a>
+            <a href="#cv" class="rounded-full border border-white/15 bg-white/10 px-5 py-3 font-medium text-slate-200 transition hover:bg-white/20">View CV</a>
           </div>
         </div>
         <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-6">
@@ -74,87 +72,124 @@
           <dl class="mt-6 space-y-4 text-sm text-slate-300">
             <div class="flex items-center justify-between border-b border-white/10 pb-3">
               <dt>Role</dt>
-              <dd class="font-medium text-white">Software Engineer</dd>
+              <dd class="font-medium text-white">Community-focused professional</dd>
             </div>
             <div class="flex items-center justify-between border-b border-white/10 pb-3">
               <dt>Location</dt>
-              <dd class="font-medium text-white">Remote / London</dd>
+              <dd class="font-medium text-white">Wales / Remote</dd>
             </div>
             <div class="flex items-center justify-between border-b border-white/10 pb-3">
               <dt>Focus</dt>
-              <dd class="font-medium text-white">Frontend & product engineering</dd>
+              <dd class="font-medium text-white">Delivery, learning, and connection</dd>
             </div>
             <div class="flex items-center justify-between">
               <dt>Languages</dt>
-              <dd class="font-medium text-white">Python, TypeScript, SQL</dd>
+              <dd class="font-medium text-white">English, Welsh</dd>
             </div>
           </dl>
         </div>
       </section>
 
-      <section id="about" class="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-        <div class="rounded-3xl border border-white/10 bg-slate-900/70 p-8">
-          <h2 class="text-2xl font-semibold text-white">About</h2>
-          <p class="mt-4 text-slate-300 leading-7">I’m a curious builder who enjoys shaping clear, maintainable systems and user-friendly interfaces. My work combines product thinking, technical execution, and a genuine interest in making complex problems feel simple.</p>
-        </div>
-        <div class="rounded-3xl border border-white/10 bg-gradient-to-br from-brand-600/20 to-slate-900 p-8">
-          <h3 class="text-lg font-semibold text-white">Highlights</h3>
-          <ul class="mt-4 space-y-3 text-slate-300">
-            <li>• Led cross-functional delivery for web and internal tools.</li>
-            <li>• Built scalable frontends with strong accessibility habits.</li>
-            <li>• Enjoyed mentoring and improving engineering practices.</li>
-          </ul>
-        </div>
+      <section id="about" class="rounded-3xl border border-white/10 bg-slate-900/70 p-8">
+        <h2 class="text-2xl font-semibold text-white">About</h2>
+        <p class="mt-4 max-w-3xl text-slate-300 leading-7">I enjoy helping people and organisations create meaningful experiences through thoughtful planning, clear communication, and practical delivery. My background blends professional work, volunteering, speaking, and event leadership.</p>
       </section>
 
-      <section id="experience" class="rounded-3xl border border-white/10 bg-slate-900/70 p-8">
-        <div class="flex items-end justify-between gap-4">
+      <section id="cv" class="rounded-3xl border border-white/10 bg-slate-900/70 p-8">
+        <div class="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <p class="text-sm font-semibold uppercase tracking-[0.24em] text-brand-300">Experience</p>
-            <h2 class="mt-2 text-2xl font-semibold text-white">Selected roles</h2>
+            <p class="text-sm font-semibold uppercase tracking-[0.24em] text-brand-300">Curriculum vitae</p>
+            <h2 class="mt-2 text-2xl font-semibold text-white">Explore the different areas of my experience</h2>
           </div>
-          <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-sm text-slate-300">Updated recently</span>
+          <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-sm text-slate-300">Interactive tabs</span>
         </div>
-        <div class="mt-8 grid gap-6 md:grid-cols-2">
-          <article class="rounded-2xl border border-white/10 bg-slate-950/60 p-6">
-            <p class="text-sm text-brand-300">2023 — Present</p>
-            <h3 class="mt-2 text-xl font-semibold text-white">Senior Product Engineer</h3>
-            <p class="mt-3 text-slate-300">Designed and shipped customer-facing features with a strong focus on reliability and delightful UX.</p>
-          </article>
-          <article class="rounded-2xl border border-white/10 bg-slate-950/60 p-6">
-            <p class="text-sm text-brand-300">2020 — 2023</p>
-            <h3 class="mt-2 text-xl font-semibold text-white">Frontend Engineer</h3>
-            <p class="mt-3 text-slate-300">Worked across product teams to create performant interfaces and contribute to shared component libraries.</p>
-          </article>
-        </div>
-      </section>
 
-      <section id="skills" class="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
-        <div class="rounded-3xl border border-white/10 bg-slate-900/70 p-8">
-          <h2 class="text-2xl font-semibold text-white">Core skills</h2>
-          <div class="mt-6 flex flex-wrap gap-3">
-            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">TypeScript</span>
-            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">React</span>
-            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">Tailwind CSS</span>
-            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">Python</span>
-            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">Testing</span>
-            <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">Product thinking</span>
-          </div>
+        <div class="mt-8 flex flex-wrap gap-2" role="tablist" aria-label="CV sections">
+          <button class="tab-btn rounded-full border border-white/10 bg-brand-600 px-4 py-2 text-sm font-medium text-white" data-target="professional" role="tab" aria-selected="true">Professional</button>
+          <button class="tab-btn rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-slate-200" data-target="education" role="tab" aria-selected="false">Education</button>
+          <button class="tab-btn rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-slate-200" data-target="volunteering" role="tab" aria-selected="false">Volunteering</button>
+          <button class="tab-btn rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-slate-200" data-target="talks" role="tab" aria-selected="false">Talks</button>
+          <button class="tab-btn rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-slate-200" data-target="events" role="tab" aria-selected="false">Events organized</button>
+          <button class="tab-btn rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-slate-200" data-target="hobbies" role="tab" aria-selected="false">Hobbies</button>
+          <button class="tab-btn rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-slate-200" data-target="languages" role="tab" aria-selected="false">Languages</button>
+          <button class="tab-btn rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-slate-200" data-target="timeline" role="tab" aria-selected="false">Timeline</button>
         </div>
-        <div class="rounded-3xl border border-white/10 bg-gradient-to-br from-slate-800 to-slate-900 p-8">
-          <h3 class="text-lg font-semibold text-white">Quick facts</h3>
-          <div class="mt-6 space-y-4 text-sm text-slate-300">
-            <div class="flex items-center justify-between border-b border-white/10 pb-3">
-              <span>Education</span>
-              <span class="font-medium text-white">BSc Computer Science</span>
+
+        <div class="mt-8 rounded-2xl border border-white/10 bg-slate-950/60 p-6">
+          <div id="professional" class="tab-panel space-y-4" role="tabpanel">
+            <h3 class="text-xl font-semibold text-white">Professional</h3>
+            <p class="text-slate-300">Experienced in delivering projects, supporting teams, and helping ideas become practical outcomes.</p>
+            <ul class="space-y-3 text-slate-300">
+              <li>• Led and supported collaborative work across diverse stakeholders.</li>
+              <li>• Built strong relationships through clear communication and an organised approach.</li>
+              <li>• Enjoyed turning complex requirements into simple, effective solutions.</li>
+            </ul>
+          </div>
+
+          <div id="education" class="tab-panel hidden space-y-4" role="tabpanel">
+            <h3 class="text-xl font-semibold text-white">Education</h3>
+            <p class="text-slate-300">A solid grounding in learning, problem-solving, and analytical thinking.</p>
+            <ul class="space-y-3 text-slate-300">
+              <li>• Studied subjects that strengthened both technical and interpersonal skills.</li>
+              <li>• Built confidence through structured learning and independent exploration.</li>
+            </ul>
+          </div>
+
+          <div id="volunteering" class="tab-panel hidden space-y-4" role="tabpanel">
+            <h3 class="text-xl font-semibold text-white">Volunteering</h3>
+            <p class="text-slate-300">Committed to giving time to causes and activities that bring people together.</p>
+            <ul class="space-y-3 text-slate-300">
+              <li>• Supported community activities and local initiatives.</li>
+              <li>• Helped create welcoming spaces for learning and participation.</li>
+            </ul>
+          </div>
+
+          <div id="talks" class="tab-panel hidden space-y-4" role="tabpanel">
+            <h3 class="text-xl font-semibold text-white">Talks</h3>
+            <p class="text-slate-300">Enjoys sharing ideas, experiences, and practical learnings with others.</p>
+            <ul class="space-y-3 text-slate-300">
+              <li>• Delivered talks on topics relating to collaboration, technology, and growth.</li>
+              <li>• Comfortable speaking to mixed audiences and encouraging discussion.</li>
+            </ul>
+          </div>
+
+          <div id="events" class="tab-panel hidden space-y-4" role="tabpanel">
+            <h3 class="text-xl font-semibold text-white">Events organized</h3>
+            <p class="text-slate-300">Experienced in planning events that are engaging, organised, and people-focused.</p>
+            <ul class="space-y-3 text-slate-300">
+              <li>• Organised group activities with attention to detail and logistics.</li>
+              <li>• Balanced planning, communication, and hospitality to create a positive experience.</li>
+            </ul>
+          </div>
+
+          <div id="hobbies" class="tab-panel hidden space-y-4" role="tabpanel">
+            <h3 class="text-xl font-semibold text-white">Hobbies</h3>
+            <p class="text-slate-300">Interests outside work include learning, culture, travel, and staying active.</p>
+            <ul class="space-y-3 text-slate-300">
+              <li>• Enjoys exploring new ideas and broadening perspective.</li>
+              <li>• Values creativity, movement, and meaningful conversation.</li>
+            </ul>
+          </div>
+
+          <div id="languages" class="tab-panel hidden space-y-4" role="tabpanel">
+            <h3 class="text-xl font-semibold text-white">Languages</h3>
+            <div class="flex flex-wrap gap-3">
+              <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">English</span>
+              <span class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200">Welsh</span>
             </div>
-            <div class="flex items-center justify-between border-b border-white/10 pb-3">
-              <span>Interests</span>
-              <span class="font-medium text-white">Design systems, AI, accessibility</span>
-            </div>
-            <div class="flex items-center justify-between">
-              <span>Availability</span>
-              <span class="font-medium text-white">Open to new projects</span>
+          </div>
+
+          <div id="timeline" class="tab-panel hidden space-y-4" role="tabpanel">
+            <h3 class="text-xl font-semibold text-white">Timeline</h3>
+            <div class="space-y-4 border-l border-white/10 pl-4">
+              <div>
+                <p class="text-sm text-brand-300">Present</p>
+                <p class="mt-1 font-medium text-white">Building momentum through projects, learning, and community work</p>
+              </div>
+              <div>
+                <p class="text-sm text-brand-300">Earlier years</p>
+                <p class="mt-1 font-medium text-white">Developed experience across professional roles, volunteering, and speaking</p>
+              </div>
             </div>
           </div>
         </div>
@@ -163,9 +198,9 @@
 
     <footer id="contact" class="border-t border-white/10 bg-slate-950/90">
       <div class="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-8 text-sm text-slate-400 lg:flex-row lg:items-center lg:justify-between lg:px-8">
-        <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+        <p>© <span id="year"></span> Gareth Thomas. All rights reserved.</p>
         <div class="flex flex-wrap items-center gap-3">
-          <a href="mailto:you@example.com" class="transition hover:text-white">you@example.com</a>
+          <a href="mailto:gareth.thomas@example.com" class="transition hover:text-white">gareth.thomas@example.com</a>
           <button id="copyEmail" class="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-slate-200 transition hover:bg-white/10" type="button">Copy email</button>
         </div>
       </div>
