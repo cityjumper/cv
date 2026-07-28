@@ -11,6 +11,15 @@ Organizes and hosts recurring technical meetups across data, algorithms, Julia, 
 - PyData Eindhoven 2025 — Dec 9, 2025
 - PyData Meetup @ Bright Cape — Apr 2, 2025 · 42 attendees
 
+**Talk playlists:** [2025](https://youtube.com/playlist?list=PLGVZCDnMOq0qE4NA_fkVLZABsRs8waMVC){ target=_blank rel="noreferrer noopener" } ·
+[2024](https://youtube.com/playlist?list=PLGVZCDnMOq0q7a2aoNP1au_1egfZEjGL6){ target=_blank rel="noreferrer noopener" } ·
+[2023](https://youtube.com/playlist?list=PLGVZCDnMOq0qkbJjIfppGO44yhDV2i4gR){ target=_blank rel="noreferrer noopener" }
+
+**Aftermovies:** [2025](https://youtu.be/Mcbhyi_egCk){ target=_blank rel="noreferrer noopener" } ·
+[2024](https://youtu.be/M2LKrgDJ0Y8){ target=_blank rel="noreferrer noopener" } ·
+[2023](https://youtu.be/9X15giuZ4-g){ target=_blank rel="noreferrer noopener" } ·
+[2022](https://youtu.be/by8HA__fWKs){ target=_blank rel="noreferrer noopener" }
+
 [meetup.com/pydata-eindhoven](https://www.meetup.com/pydata-eindhoven/){ target=_blank rel="noreferrer noopener" }
 
 ## ![AlgoSphere Eindhoven](assets/logos/algosphere.jpg){ width="40" } AlgoSphere Eindhoven
@@ -35,6 +44,12 @@ Organizes and hosts recurring technical meetups across data, algorithms, Julia, 
 - JuliaCon 2024 (local meetup) — Jul 9, 2024
 - Numerical Modeling with Julia @ Deltares — Mar 6, 2024 · 50 attendees
 
+JuliaCon 2024 — the 11th annual JuliaCon — was held in Eindhoven, organized alongside the local Julia community:
+
+- [Full talks playlist — The 11th Annual JuliaCon (Eindhoven)](https://youtube.com/playlist?list=PLP8iPy9hna6R5gUZLbSZCZTGJ0uncLBfi){ target=_blank rel="noreferrer noopener" }
+- [JuliaCon 2024 aftermovie](https://youtu.be/8yxvoTsd3o0){ target=_blank rel="noreferrer noopener" }
+- [JuliaCon Local Eindhoven 2023 aftermovie](https://youtu.be/9YfRd6sdI4Q){ target=_blank rel="noreferrer noopener" }
+
 [meetup.com/julialang-eindhoven](https://www.meetup.com/julialang-eindhoven/){ target=_blank rel="noreferrer noopener" }
 
 ## ![Dutch Cloud Native & AI Community](assets/logos/dutch-cloud-native.jpg){ width="70" } Dutch Cloud Native & AI Community
@@ -55,3 +70,11 @@ Co-hosts recurring evening events at ASML, pairing external speakers with networ
 - JAVA and Performance — Mar 5, 2026 · High Tech Campus, Eindhoven · with a CGI introduction segment
 
 [luma.com/pb5zmwyk](https://luma.com/pb5zmwyk){ target=_blank rel="noreferrer noopener" }
+
+## FOSS4GNL
+
+**Moderator** · Groningen, Netherlands :flag_nl:
+
+FOSS4GNL 2026 — Free and Open Source Software for Geospatial — a two-day conference and workshop event organized by OSGeo.nl and the Jantina Tammes School (RUG), Jul 8–9, 2026, in Groningen.
+
+[foss4g.nl](https://foss4g.nl){ target=_blank rel="noreferrer noopener" }
