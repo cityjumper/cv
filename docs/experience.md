@@ -36,7 +36,7 @@ Ran three ventures at once between 2019 and 2021 — VersionBay, MATLAB Coders, 
     - **DNB** (De Nederlandsche Bank) — Financial modeling and application deployment.
     - **ESA** (European Space Agency) — Updating Simulink models to newer versions.
 
-    Also built VersionBay's own training content and products, including tools for measuring MATLAB usage and automatic regression-test generation with automatic pipeline creation.
+    Also built VersionBay's own training content and products: **Toolbox Usage Analyzer**, for measuring MATLAB usage, and **Package Tester**, which automatically generates regression tests while migrating from older MATLAB versions to newer ones — with automatic pipeline generation to pinpoint effort and where new MATLAB/Simulink versions caused migration work.
 
     [versionbay.com](https://versionbay.com/){ target=_blank rel="noreferrer noopener" }
 
@@ -86,7 +86,9 @@ Also helped drive, organize, and moderate the MathWorks Research Summit for thre
 
 A strong believer in and promoter of MathWorks' support for RoboCup — volunteering at the University-level competition in 2001, then driving MathWorks' backing of RoboCup over the following years.
 
-Visited and worked with several companies and institutions across the MathWorks years, giving presentations and demos and helping teams put MATLAB and Simulink to work: ESA, CNH, ASML, VDL, Punch, and TU/e.
+Visited and worked with several companies and institutions across the MathWorks years, giving presentations and demos and helping teams put MATLAB and Simulink to work: ESA, CNH, ASML, VDL, Punch, TU/e, and TU Delft. Also worked with KROHNE in the Netherlands, visited the LEGO HQ in Denmark, and worked with Lely, Belfius (Belgium), Goodyear (Luxembourg), and Toyota (Luxembourg), among others.
+
+Gave talks at top engineering universities in Israel, Turkey, Greece, Hungary, and South Africa, and visited universities in Japan. Connected with commercial companies in Turkey on Code Generation, Verification & Validation, DO-178B/C, and ISO standards, and how to leverage HIL simulations to achieve certification. Gave guest lectures at TU Eindhoven, TU Delft, and Fontys Eindhoven, and supported MathWorks distributors in driving their regional Education strategy.
 
 Still an active member of the MATLAB Central community since 2011 — rank 549 of 301,994, 70 Answers contributed, 3 files published, and 2,608 total downloads.
 

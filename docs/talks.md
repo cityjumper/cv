@@ -10,6 +10,14 @@ Talk on moving from MATLAB to Julia, given at JuliaCon 2024 and published on the
 
 [Watch on YouTube](https://www.youtube.com/live/3y5yN7U0HCI){ target=_blank rel="noreferrer noopener" }
 
+### ![Julia](assets/logos/julia.svg){ width="36" } From MATLAB to Julia: Learnings
+
+**Barcelona Julia Meetup** · Apr 11, 2024 · Norrsken House, Barcelona, Spain
+
+Shared four projects undertaken to get up to speed with Julia — the challenges and discoveries from the first 10 hours coming from a MATLAB background — alongside Jorge Vieyra (ASML) on "ASML's Julia Journey" and Pere Giménez (Genie) on "A Beginner's Introduction to Julia."
+
+[View event on Meetup](https://www.meetup.com/cf1f2156-154f-4b84-80db-295496535ead/events/299573017/){ target=_blank rel="noreferrer noopener" }
+
 ### ![040Coders](assets/logos/040coders.png){ width="28" } The First 10 Hours: Moving from MATLAB to Julia
 
 **040Coders** · Mar 20, 2025 · Eindhoven, Netherlands :flag_nl:
