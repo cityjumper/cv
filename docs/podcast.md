@@ -2,15 +2,13 @@
 
 ## ![Inspiring Computing](assets/logos/inspiringcomputing.jpg){ width="60" } Inspiring Computing
 
-**Co-host** (with Andrew Rutgers) · Jul 2021 – Present · 5 yrs · Eindhoven Area, Netherlands :flag_nl:
+**Podcaster** · Jan 2023 – Present · 3 yrs 7 mo · Eindhoven Area, Netherlands :flag_nl:
 
-*"Where computing meets the real world"* — conversations with advanced users of MATLAB, Python, and Julia who use these tools to deepen understanding and gain insight, from open-source maintainers to founders and researchers.
-
-Launched in July 2021 as **Tangible Computing**, co-founded and co-hosted with Andrew Rutgers (CEO of ChargeSim); continues today as **Inspiring Computing**.
+*"Where computing meets the real world"* — conversations with advanced users of MATLAB, Python, and Julia who use these tools to deepen understanding and gain insight, from open-source maintainers to founders and researchers. The continuation of **Tangible Computing** (below), under a new name.
 
 [Listen on inspiringcomputing.com](https://www.inspiringcomputing.com/2107763/episodes){ target=_blank rel="noreferrer noopener" }
 
-## Episodes
+### Inspiring Computing Episodes
 
 | Ep | Episode | Guest / topic | Date |
 |---|---|---|---|
@@ -41,3 +39,38 @@ Launched in July 2021 as **Tangible Computing**, co-founded and co-hosted with A
 | 2 | Pluto: Making Scientific Computing Accessible and Fun | Exploring Pluto notebooks, a Julia package used by hundreds of thousands | Apr 5, 2023 |
 
 Episode 1 and the full, continuously updated archive are available on [inspiringcomputing.com](https://www.inspiringcomputing.com/2107763/episodes){ target=_blank rel="noreferrer noopener" }.
+
+## Tangible Computing
+
+**Host** (with Andrew Rutgers, CEO of ChargeSim) · Jul 2021 – Mar 2022 · Eindhoven Area, Netherlands :flag_nl:
+
+*"Where computing meets the real world"* — the predecessor to Inspiring Computing, co-founded and co-hosted with Andrew Rutgers.
+
+[Listen on tangiblecomputing.com](https://www.tangiblecomputing.com/1798586/episodes){ target=_blank rel="noreferrer noopener" }
+
+### Tangible Computing Episodes
+
+| Ep | Episode | Date |
+|---|---|---|
+| S2E0 | Why Tangible Computing Season 2 | Mar 28, 2022 |
+| #20 | Benno Broer: Quantum Processing Units | Feb 18, 2022 |
+| #19 | Vincent Warmerdam: Teaching People to Teach Machines to Understand | Jan 4, 2022 |
+| #18 | Roos and Geert: Data Science with Purpose | Dec 14, 2021 |
+| #17 | Cor Datema: For a Safer World | Nov 30, 2021 |
+| #16 | Nina Hoff: What is Behind 3D Printing Food | Nov 23, 2021 |
+| #15 | Paul Kassebaum: Tangible Quantum Computing | Nov 2, 2021 |
+| #14 | Albert Maas: Making the Building Blocks for Robotics | Oct 19, 2021 |
+| #13 | Koen Vossen: Sport Analytics | Oct 11, 2021 |
+| #12 | Dennis Ramondt: Role of AI in Eliminating Industrial Energy Waste | Oct 5, 2021 |
+| #11 | Daniel Rohr: Improving Trucking with Data Science | Sep 28, 2021 |
+| #10 | Iris Soute: The World is Our Playground | Sep 21, 2021 |
+| #9 | Wouter Kuijpers: The Value of Student Competitions — RoboCup Explained | Sep 7, 2021 |
+| #8 | Giel van den Broeck: Building Design Tools for DC Microgrids | Aug 31, 2021 |
+| #7 | Christopher Bailey: Teaching the World Python | Aug 24, 2021 |
+| #6 | Bartosz Górecki: Using Simulations to Help Batteries Last Longer | Aug 16, 2021 |
+| #5 | Joost Brilman: The Story Behind String Art | Aug 10, 2021 |
+| #4 | Luís Oliveira: Optical Wireless Communication — The Last Mile | Aug 3, 2021 |
+| #3 | Rudie Verweij: Cooling Down the Planet One Server at a Time | Jul 27, 2021 |
+| #2 | Gareth Thomas: Technical and Scientific Computing Landscape | Jul 16, 2021 |
+| #1 | Andrew Rutgers: Calculating the Right Chargers for EVs | Jul 15, 2021 |
+| #0 | Andrew Rutgers & Gareth Thomas: Why Tangible Computing | Jul 14, 2021 |

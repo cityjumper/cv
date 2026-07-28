@@ -26,6 +26,18 @@ Delivered as Tester at CGI/ProRail. At ProRail, multiple teams use Playwright bu
 
 [View event on Luma](https://luma.com/7xuqf1sj){ target=_blank rel="noreferrer noopener" }
 
+### My Favourite New Features in MATLAB R2023a and R2023b
+
+**MATLABers Unite @ High Tech Campus** · Nov 21, 2023 · Eindhoven, Netherlands :flag_nl:
+
+Eight hands-on demos of the newest MATLAB features, aimed at both newcomers and seasoned developers, with honest takes on when each feature is actually useful.
+
+### "What's New in MATLAB" Release Talks
+
+**AlgoSphere / MATLAB Coders meetups** · 2019 – 2023 · Eindhoven, Netherlands :flag_nl:
+
+A recurring talk given at nearly every MATLAB release, walking the community through the newest features — in person and, through the pandemic, online: R2019a (May 2019, HTC), R2019b (Oct 2019, ICT), R2020a (Apr 2020, online), R2020b (Oct 2020, online), and R2021a (May 2021, online).
+
 ### Using MATLAB with Hardware-in-the-Loop
 
 Technical talk on hardware-in-the-loop testing with MATLAB and Simulink, delivered during the MathWorks years. [View slides (PDF)](assets/using-matlab-with-hardware-in-the-loop.pdf)

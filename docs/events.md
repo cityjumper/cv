@@ -26,10 +26,16 @@ Organizes and hosts recurring technical meetups across data, algorithms, Julia, 
 
 **Lead Organizer** · Eindhoven Area, Netherlands :flag_nl:
 
-357 members · 4.7★ (46 ratings). *"Algorithm Excellence, Shared Experience"* — a sales-free technical community for algorithm development across MATLAB, Python, Julia, Rust, and more, with 6 other organizers.
+357 members · 4.7★ (46 ratings). *"Algorithm Excellence, Shared Experience"* — a sales-free technical community for algorithm development across MATLAB, Python, Julia, Rust, and more, with 6 other organizers. Formerly **MATLAB Coders** (founded May 2019, see the [MATLAB Coders venture](experience.md#entrepreneurial-ventures)), rebranded AlgoSphere Eindhoven to reflect its broader, language-agnostic focus.
 
-- Challenges on Developing Real-Time Algorithms — Oct 10, 2024 · 46 attendees
-- MATLABers Unite @ High Tech Campus — Nov 21, 2023 · 13 attendees
+- **Challenges on Developing Real-Time Algorithms** — Oct 10, 2024 · Cafe 100 Watt, Stadsbrouwerij Eindhoven · 46 attendees · sponsored by ASML
+    - "20,000 Leagues Under MATLAB, Python and Julia: A Numerical Journey" — Jorge Vieyra, Julia Lead Engineer at ASML
+    - "War Stories with Sensor Fusion" — Marcus Forte, System Architect at Vanderlande / Sioux
+    - "Co-Design in Radio Astronomy, a Use Case in Fourier Domain Dedispersion" — Steven van der Vlugt, Researcher Computer Systems at ASTRON
+- **MATLABers Unite @ High Tech Campus** — Nov 21, 2023 · HTC Building 5 · 13 attendees
+    - "Making Your MATLAB Code Ready for Deployment Using C++ Code Generation" — Co Melissant, CTO & Senior Consultant
+    - "My Favourite New Features in MATLAB R2023a and R2023b" — Gareth Thomas
+- 11 further MATLAB Coders meetups, 2019–2021, in person around Eindhoven (Sioux, Avular, ICT, ALTEN) and online through the pandemic — including several "What's New in MATLAB" release talks by Gareth, see [Talks Given](talks.md)
 
 [meetup.com/algosphere](https://www.meetup.com/algosphere/){ target=_blank rel="noreferrer noopener" }
 
@@ -39,10 +45,25 @@ Organizes and hosts recurring technical meetups across data, algorithms, Julia, 
 
 362 members · 4.9★ (34 ratings), with 6 other organizers. A place for people passionate about Julia to share experiences in the Eindhoven region — no sales, no marketing, no recruiting, just technical people solving technical problems.
 
-- Julia x Rust Meetup Eindhoven — Jun 17, 2025 · 46 attendees · ASML
-- Rust x Julia Meetup Eindhoven — Mar 25, 2025 · 17 attendees · Sioux Labs
-- JuliaCon 2024 (local meetup) — Jul 9, 2024
-- Numerical Modeling with Julia @ Deltares — Mar 6, 2024 · 50 attendees
+- **Julia x Rust Meetup Eindhoven** — Jun 17, 2025 · ASML · 46 attendees · with RustNL
+    - "Low-Level Shenanigans in a High-Level Language" — Tim Besard, JuliaHub
+    - "What Actually Are Attributes?" — Jana Dönszelmann, Hexcat / RustNL
+    - Panel discussion led by Jorge Vieyra (ASML) and Gareth Thomas (CGI)
+- **Rust x Julia Meetup Eindhoven** — Mar 25, 2025 · Sioux Labs · 17 attendees · with RustNL
+    - "Julia in C World: Fast, Safe and Seamless" — Yury, ASML
+    - "Rust and Julia, ¿por qué no los dos?" — Thomas, Vention
+    - "Fearless Refactoring in Rust" — Martin, ROCSYS
+- **We will be at JuliaCon 2024!** — Jul 9, 2024 · Philips Stadium, Eindhoven · 7 attendees
+- **Numerical Modeling with Julia @ Deltares** — Mar 6, 2024 · 50 attendees
+    - "Using Julia for Portable GPU Programming" — Tim Besard, JuliaHub
+    - "Hydrological Modelling in Julia with Ribasim" — Huite Bootsma, Deltares
+    - "Finite Element Modeling of Assets in Future Distribution Grids Using Julia" — Domenico Lahaye, TU Delft
+- **JuliaCon Local Eindhoven 2023** — Dec 1, 2023 · High Tech Campus · 8 attendees
+- **Positioning Julia** — Sep 28, 2023 · ALTEN · 38 attendees
+    - "Interactive Data Dashboards with Genie: Design to Deployment" — Pere Giménez, Genie
+    - "Easiness of Algorithm Deployment" — Evangelos Paradas, ASML
+    - "Julia's Rise in the TIOBE Index" & "Code Quality Checkers in Julia" — Paul Jansen, TIOBE
+- **Free Workshop: Interactive Web Apps in Julia with Genie** — Sep 28, 2023 · High Tech Campus · 15 attendees
 
 JuliaCon 2024 — the 11th annual JuliaCon — was held in Eindhoven, organized alongside the local Julia community:
 
