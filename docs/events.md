@@ -10,8 +10,33 @@ Organizes and hosts recurring technical meetups across data, algorithms, Julia, 
 
 Through PyData Eindhoven events, has raised and donated over €75,000 to open source projects.
 
-- PyData Eindhoven 2025 — Dec 9, 2025
-- PyData Meetup @ Bright Cape — Apr 2, 2025 · 42 attendees
+**2025**
+
+- PyData Eindhoven 2025 — Dec 9, 2025 · Conference Center The Strip, HTC · 23 talks across Data Engineering, AI & ML, and Sport Analytics (with PySport)
+- PyData x Pipple Meetup — Nov 18, 2025 · 13 attendees · "The Power of Data and AI in Practice"
+- PyData Meetup @ BigData Republic — Oct 23, 2025 · 13 attendees · Utrecht — included Gareth's own talk, "Getting Started with Soccer Analytics" (see [Talks Given](talks.md))
+- PyData Meetup @ Bright Cape — Apr 2, 2025 · 42 attendees · "Scalable AI & Cloud Deployments"
+
+**2024**
+
+- Cutting-Edge AI and Machine Learning Innovations, with Kickstart.ai — Sep 10, 2024 · 46 attendees · AI Innovation Center, HTC
+- PyData Eindhoven 2024 — Jul 11, 2024 · Philips Stadium
+- Effective Strategies for Optimizing Cloud Costs, with Eindhoven Data Community — Mar 28, 2024 · HTC 60, hosted by NXP
+
+**2023**
+
+- PyData Eindhoven 2023 — Nov 30, 2023
+- PyData Meetup @ Vanderlande: ML Automation in the Logistics Domain — Sep 5, 2023 · 65 attendees · Veghel
+- PyData Meetup @ Jumbo: Solving Business Problems with Python — May 25, 2023 · 52 attendees · Veghel
+- PyData Meetup @ Prodrive Technologies — Apr 26, 2023 · 39 attendees · "Python and Mechatronics"
+- Python with Purpose @ Pipple — Mar 2, 2023 · 56 attendees · Eindhoven
+- PyData Meetup: Demand Forecasting and Logistic Optimization @ EyeOn — Jan 26, 2023 · 38 attendees · Aarle-Rixtel
+
+**2022**
+
+- PyData Eindhoven Conference — Dec 2, 2022 · HTC · ticket proceeds donated to NumFOCUS
+- PyData Automotive Meetup @ DAF — Oct 25, 2022 · 58 attendees · Eindhoven
+- PyData Eindhoven Meetup — Back to Face-to-Face Meetups, hosted by VersionBay — Jul 21, 2022 · HTC 5
 
 **Talk playlists:** [2025](https://youtube.com/playlist?list=PLGVZCDnMOq0qE4NA_fkVLZABsRs8waMVC){ target=_blank rel="noreferrer noopener" } ·
 [2024](https://youtube.com/playlist?list=PLGVZCDnMOq0q7a2aoNP1au_1egfZEjGL6){ target=_blank rel="noreferrer noopener" } ·

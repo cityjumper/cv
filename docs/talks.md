@@ -58,6 +58,12 @@ Productivity tips for Simulink users — Quick Typing for faster model creation,
 
 Technical talk on hardware-in-the-loop testing with MATLAB and Simulink, delivered during the MathWorks years. [View slides (PDF)](assets/using-matlab-with-hardware-in-the-loop.pdf)
 
+### ![PyData](assets/logos/pydata.png){ width="36" } Getting Started with Soccer Analytics
+
+**PyData Meetup @ BigData Republic** · Oct 23, 2025 · Utrecht, Netherlands :flag_nl:
+
+A live-coding session on soccer analytics with mplsoccer and StatsBomb data, showing how the sporting world tracks its data and how others can contribute to the open-source projects behind it.
+
 ## Podcast Appearances
 
 ### ![ArrayCast](assets/logos/arraycast.png){ width="36" } ArrayCast — Episode 79: MATLAB
