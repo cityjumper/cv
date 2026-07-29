@@ -25,12 +25,7 @@ Twenty years, mapped end to end — including the years running two ventures and
 !!! success "Country Manager Benelux · Open iT, Inc."
     **Jan 2020 – Sep 2021 · 1 yr 9 mo**
 
-    Ran the Benelux territory in parallel with VersionBay and MATLAB Coders — three roles at once. Eindhoven Area, Netherlands :flag_nl:
-
-!!! success "Founder · MATLAB Coders"
-    **May 2019 – Aug 2024 · 5 yrs 4 mo**
-
-    Built a second venture serving the MATLAB developer community, alongside VersionBay. Eindhoven Area, Netherlands :flag_nl:
+    Ran the Benelux territory in parallel with VersionBay and the MATLAB Coders hobby project. Eindhoven Area, Netherlands :flag_nl:
 
 !!! success "Co-Founder · VersionBay"
     **Nov 2018 – Mar 2025 · 6 yrs 5 mo**

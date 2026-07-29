@@ -22,7 +22,7 @@ Directed consulting delivery and service growth on rejoining CGI, ahead of movin
 
 *Nov 2018 – Mar 2025 · 6 yrs 5 mo · Eindhoven Area, Netherlands :flag_nl:*
 
-Ran three ventures at once between 2019 and 2021 — VersionBay, MATLAB Coders, and Open iT's Benelux territory.
+Ran two ventures at once between 2019 and 2021 — VersionBay and Open iT's Benelux territory — alongside the [MATLAB Coders](hobbies.md#matlab-coders) hobby project.
 
 === "![VersionBay](assets/logos/versionbay.png){ width='20' } VersionBay — Co-Founder"
 
@@ -39,12 +39,6 @@ Ran three ventures at once between 2019 and 2021 — VersionBay, MATLAB Coders, 
     Also built VersionBay's own training content and products: **Toolbox Usage Analyzer**, for measuring MATLAB usage, and **Package Tester**, which automatically generates regression tests while migrating from older MATLAB versions to newer ones — with automatic pipeline generation to pinpoint effort and where new MATLAB/Simulink versions caused migration work.
 
     [versionbay.com](https://versionbay.com/){ target=_blank rel="noreferrer noopener" }
-
-=== "MATLAB Coders — Founder"
-
-    **May 2019 – Aug 2024 · 5 yrs 4 mo**
-
-    Founded and ran a second venture in parallel with VersionBay for over five years, focused on the MATLAB developer community.
 
 === "![Open iT](assets/logos/openit.png){ width='20' } Open iT, Inc. — Country Manager Benelux"
 

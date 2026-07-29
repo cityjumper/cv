@@ -8,6 +8,8 @@ Organizes and hosts recurring technical meetups across data, algorithms, Julia, 
 
 1,210 members · 4.7★ (110 ratings) · part of the global PyData network (98 groups), with NumFOCUS, Inc. as super organizer. Leads the group alongside 10 other organizers, promoting best practices in data management, processing, analytics, and visualization with Python, Julia, and R.
 
+Through PyData Eindhoven events, has raised and donated over €75,000 to open source projects.
+
 - PyData Eindhoven 2025 — Dec 9, 2025
 - PyData Meetup @ Bright Cape — Apr 2, 2025 · 42 attendees
 
@@ -26,7 +28,7 @@ Organizes and hosts recurring technical meetups across data, algorithms, Julia, 
 
 **Lead Organizer** · Eindhoven Area, Netherlands :flag_nl:
 
-357 members · 4.7★ (46 ratings). *"Algorithm Excellence, Shared Experience"* — a sales-free technical community for algorithm development across MATLAB, Python, Julia, Rust, and more, with 6 other organizers. Formerly **MATLAB Coders** (founded May 2019, see the [MATLAB Coders venture](experience.md#entrepreneurial-ventures)), rebranded AlgoSphere Eindhoven to reflect its broader, language-agnostic focus.
+357 members · 4.7★ (46 ratings). *"Algorithm Excellence, Shared Experience"* — a sales-free technical community for algorithm development across MATLAB, Python, Julia, Rust, and more, with 6 other organizers. Formerly **MATLAB Coders** (founded May 2019 as a [hobby project](hobbies.md#matlab-coders)), rebranded AlgoSphere Eindhoven to reflect its broader, language-agnostic focus.
 
 - **Challenges on Developing Real-Time Algorithms** — Oct 10, 2024 · Cafe 100 Watt, Stadsbrouwerij Eindhoven · 46 attendees · sponsored by ASML
     - "20,000 Leagues Under MATLAB, Python and Julia: A Numerical Journey" — Jorge Vieyra, Julia Lead Engineer at ASML

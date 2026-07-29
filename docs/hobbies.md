@@ -31,6 +31,10 @@ A hub of browser games — Sudoku, Chess, Connect Four, Minesweeper, and more �
 
 [brainportai.com](https://www.brainportai.com){ target=_blank rel="noreferrer noopener" }
 
+### MATLAB Coders
+
+Founded in May 2019 as a hobby project — a community for MATLAB enthusiasts to share how they use MATLAB and Simulink to solve technical problems, running meetups around Eindhoven (Sioux, Avular, ICT, ALTEN, High Tech Campus) and, through the pandemic, online. Ran for over five years before evolving into [AlgoSphere Eindhoven](events.md#algosphere-eindhoven), broadening the focus beyond MATLAB to algorithms across all languages.
+
 ### MATLAB Jokes, Julia Jokes & Rust Jokes
 
 Maintainer of a small family of joke tools for conference and meetup MCs — "not racist, not sexual, not political," just a smile between talks. MATLAB Jokes started life as a 90-minute exercise in shipping a MATLAB toolbox from scratch to MATLAB Central File Exchange and the Add-Ons panel.
