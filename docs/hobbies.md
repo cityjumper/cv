@@ -44,6 +44,14 @@ Maintainer of a small family of joke tools for conference and meetup MCs — "no
 [Julia Jokes on GitHub](https://github.com/cityjumper/Jokes.jl){ target=_blank rel="noreferrer noopener" } ·
 [Rust Jokes on GitHub](https://github.com/versionbaygt/jokes_rust){ target=_blank rel="noreferrer noopener" }
 
+### Exploring AI — Songs with Suno
+
+Experimenting with generative AI music using [Suno](https://suno.com){ target=_blank rel="noreferrer noopener" } — a few tracks made so far:
+
+- [Lowland Button](https://suno.com/s/C8sQ6QkTiQLwB1aL){ target=_blank rel="noreferrer noopener" }
+- [Mapped on the Rails](https://suno.com/s/chOsjprK3p7tqzE1){ target=_blank rel="noreferrer noopener" }
+- [Stay Down](https://suno.com/s/fpT0OLAsWBuKm2h4){ target=_blank rel="noreferrer noopener" }
+
 ## Fun Facts
 
 - Grew up in an actuarial family.
