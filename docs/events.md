@@ -14,7 +14,7 @@ Through PyData Eindhoven events, has raised and donated over €75,000 to open s
 
 - PyData Eindhoven 2025 — Dec 9, 2025 · Conference Center The Strip, HTC · 23 talks across Data Engineering, AI & ML, and Sport Analytics (with PySport)
 - ![Pipple](assets/logos/pipple.png){ width="16" } PyData x Pipple Meetup — Nov 18, 2025 · 13 attendees · "The Power of Data and AI in Practice"
-- ![BigData Republic](assets/logos/bigdatarepublic.png){ width="16" } PyData Meetup @ BigData Republic — Oct 23, 2025 · 13 attendees · Utrecht — included Gareth's own talk, "Getting Started with Soccer Analytics" (see [Talks Given](talks.md))
+- ![BigData Republic](assets/logos/bigdatarepublic.png){ width="16" } PyData Meetup @ BigData Republic — Oct 23, 2025 · 13 attendees · Utrecht — included Gareth's own talk, ["Getting Started with Soccer Analytics"](talks.md#getting-started-with-soccer-analytics)
 - ![Bright Cape](assets/logos/brightcape.png){ width="16" } PyData Meetup @ Bright Cape — Apr 2, 2025 · 42 attendees · "Scalable AI & Cloud Deployments"
 
 **2024**
@@ -118,6 +118,14 @@ Co-hosts recurring evening events at ASML, pairing external speakers with networ
 - ![CGI](assets/logos/cgi.png){ width="16" } JAVA and Performance — Mar 5, 2026 · High Tech Campus, Eindhoven · with a CGI introduction segment
 
 [luma.com/pb5zmwyk](https://luma.com/pb5zmwyk){ target=_blank rel="noreferrer noopener" }
+
+## ![Playwright](assets/logos/playwright.svg){ width="110" } Playwright Netherlands
+
+**Host** · Utrecht, Netherlands :flag_nl:
+
+- Free: Playwright Evening @ ProRail — May 19, 2026 · Utrecht · 37 attendees · open-source testing with Playwright, "no sales, no marketing, no hiring, just technical talks" — also spoke on ["Top 10 Lessons Learnt in Adopting Playwright"](talks.md)
+
+[luma.com/7xuqf1sj](https://luma.com/7xuqf1sj){ target=_blank rel="noreferrer noopener" }
 
 ## FOSS4GNL
 

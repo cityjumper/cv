@@ -91,6 +91,8 @@ Technical talk on hardware-in-the-loop testing with MATLAB and Simulink, deliver
 
 A live-coding session on soccer analytics with mplsoccer and StatsBomb data, showing how the sporting world tracks its data and how others can contribute to the open-source projects behind it.
 
+[View slides (PDF)](assets/getting-started-with-soccer-analytics.pdf)
+
 ## Podcast Appearances
 
 ### ![ArrayCast](assets/logos/arraycast.png){ width="36" } ArrayCast — Episode 79: MATLAB
