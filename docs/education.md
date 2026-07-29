@@ -79,5 +79,7 @@ The top engineering university in Portugal. Completed an MSc with a strong focus
 
 ## Earlier Education
 
-- **Macau** :flag_mo: — Started at a Portuguese school at age 7, in a class split evenly between Cantonese and Portuguese speakers, speaking only English. Three years later, at age 10, was the best student in the country and won a prize for it.
-- **Anselmo de Andrade High School, Portugal** :flag_pt: — Represented the school in Math Olympiads, progressing all the way to the international level.
+- **[Kellett School](https://www.kellettschool.com){ target=_blank rel="noreferrer noopener" }, Hong Kong** :flag_hk: · Ages 6–7
+- **[Escola Portuguesa de Macau](https://www.epmacau.edu.mo){ target=_blank rel="noreferrer noopener" }, Macau** :flag_mo: · Ages 7–10 — Started speaking only English, in a class split evenly between Cantonese and Portuguese speakers. Three years later, at age 10, was the best student in the country and won a prize for it.
+- **[Colégio Campo de Flores](https://www.campodeflores.com){ target=_blank rel="noreferrer noopener" }, Portugal** :flag_pt: · Ages 10–15
+- **[Anselmo de Andrade](https://www.anselmodeandrade.pt/aeaa/index.php/o-agrupamento/){ target=_blank rel="noreferrer noopener" }, Almada, Portugal** :flag_pt: · Ages 15–18 — Represented the school in Math Olympiads, progressing all the way to the international level.
