@@ -1,5 +1,18 @@
 # Events Organized
 
+<div markdown="0">
+<style>
+.yt-thumb { display: inline-block; position: relative; border-radius: 8px; overflow: hidden; text-decoration: none; box-shadow: 0 1px 4px rgba(0,0,0,.25); transition: transform .15s ease; max-width: 360px; margin: .5em 0; }
+.yt-thumb:hover { transform: scale(1.02); }
+.yt-thumb img { display: block; width: 100%; height: auto; }
+.yt-thumb::before { content: ""; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 46px; height: 46px; background: rgba(0,0,0,.6); border-radius: 50%; }
+.yt-thumb::after { content: ""; position: absolute; top: 50%; left: calc(50% + 3px); transform: translate(-50%, -50%); width: 0; height: 0; border-style: solid; border-width: 10px 0 10px 16px; border-color: transparent transparent transparent #fff; }
+.yt-thumb span { display: block; text-align: center; padding: .35em 0; font-size: .8em; color: var(--md-default-fg-color); }
+.yt-thumb-row { display: flex; flex-wrap: wrap; gap: 1em; margin: 1em 0; }
+.yt-thumb-row .yt-thumb { max-width: 200px; flex: 0 1 200px; margin: 0; }
+</style>
+</div>
+
 Organizes and hosts recurring technical meetups across data, algorithms, Julia, cloud-native, and Java — all "no sales, no marketing, no recruiting" communities focused purely on technical exchange.
 
 ## ![PyData](assets/logos/pydata.png){ width="40" } PyData Eindhoven
@@ -42,10 +55,14 @@ Through PyData Eindhoven events, has raised and donated over €75,000 to open s
 [2024](https://youtube.com/playlist?list=PLGVZCDnMOq0q7a2aoNP1au_1egfZEjGL6){ target=_blank rel="noreferrer noopener" } ·
 [2023](https://youtube.com/playlist?list=PLGVZCDnMOq0qkbJjIfppGO44yhDV2i4gR){ target=_blank rel="noreferrer noopener" }
 
-**Aftermovies:** [2025](https://youtu.be/Mcbhyi_egCk){ target=_blank rel="noreferrer noopener" } ·
-[2024](https://youtu.be/M2LKrgDJ0Y8){ target=_blank rel="noreferrer noopener" } ·
-[2023](https://youtu.be/9X15giuZ4-g){ target=_blank rel="noreferrer noopener" } ·
-[2022](https://youtu.be/by8HA__fWKs){ target=_blank rel="noreferrer noopener" }
+**Aftermovies:**
+
+<div class="yt-thumb-row" markdown="0">
+<a class="yt-thumb" href="https://youtu.be/Mcbhyi_egCk" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/pydata-aftermovie-2025.jpg" alt="PyData Eindhoven 2025 aftermovie"><span>2025</span></a>
+<a class="yt-thumb" href="https://youtu.be/M2LKrgDJ0Y8" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/pydata-aftermovie-2024.jpg" alt="PyData Eindhoven 2024 aftermovie"><span>2024</span></a>
+<a class="yt-thumb" href="https://youtu.be/9X15giuZ4-g" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/pydata-aftermovie-2023.jpg" alt="PyData Eindhoven 2023 aftermovie"><span>2023</span></a>
+<a class="yt-thumb" href="https://youtu.be/by8HA__fWKs" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/pydata-aftermovie-2022.jpg" alt="PyData Eindhoven 2022 aftermovie"><span>2022</span></a>
+</div>
 
 [meetup.com/pydata-eindhoven](https://www.meetup.com/pydata-eindhoven/){ target=_blank rel="noreferrer noopener" }
 
@@ -95,8 +112,11 @@ Through PyData Eindhoven events, has raised and donated over €75,000 to open s
 JuliaCon 2024 — the 11th annual JuliaCon — was held in Eindhoven, organized alongside the local Julia community:
 
 - [Full talks playlist — The 11th Annual JuliaCon (Eindhoven)](https://youtube.com/playlist?list=PLP8iPy9hna6R5gUZLbSZCZTGJ0uncLBfi){ target=_blank rel="noreferrer noopener" }
-- [JuliaCon 2024 aftermovie](https://youtu.be/8yxvoTsd3o0){ target=_blank rel="noreferrer noopener" }
-- [JuliaCon Local Eindhoven 2023 aftermovie](https://youtu.be/9YfRd6sdI4Q){ target=_blank rel="noreferrer noopener" }
+
+<div class="yt-thumb-row" markdown="0">
+<a class="yt-thumb" href="https://youtu.be/8yxvoTsd3o0" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/juliacon2024-aftermovie.jpg" alt="JuliaCon 2024 aftermovie"><span>JuliaCon 2024</span></a>
+<a class="yt-thumb" href="https://youtu.be/9YfRd6sdI4Q" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/juliacon-local-2023-aftermovie.jpg" alt="JuliaCon Local Eindhoven 2023 aftermovie"><span>JuliaCon Local 2023</span></a>
+</div>
 
 [meetup.com/julialang-eindhoven](https://www.meetup.com/julialang-eindhoven/){ target=_blank rel="noreferrer noopener" }
 

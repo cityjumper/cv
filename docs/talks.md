@@ -1,5 +1,18 @@
 # Talks Given
 
+<div markdown="0">
+<style>
+.yt-thumb { display: inline-block; position: relative; border-radius: 8px; overflow: hidden; text-decoration: none; box-shadow: 0 1px 4px rgba(0,0,0,.25); transition: transform .15s ease; max-width: 360px; margin: .5em 0; }
+.yt-thumb:hover { transform: scale(1.02); }
+.yt-thumb img { display: block; width: 100%; height: auto; }
+.yt-thumb::before { content: ""; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 46px; height: 46px; background: rgba(0,0,0,.6); border-radius: 50%; }
+.yt-thumb::after { content: ""; position: absolute; top: 50%; left: calc(50% + 3px); transform: translate(-50%, -50%); width: 0; height: 0; border-style: solid; border-width: 10px 0 10px 16px; border-color: transparent transparent transparent #fff; }
+.yt-thumb span { display: block; text-align: center; padding: .35em 0; font-size: .8em; color: var(--md-default-fg-color); }
+.yt-thumb-row { display: flex; flex-wrap: wrap; gap: 1em; margin: 1em 0; }
+.yt-thumb-row .yt-thumb { max-width: 200px; flex: 0 1 200px; margin: 0; }
+</style>
+</div>
+
 ## Conference & Meetup Talks
 
 ### ![MATLAB](assets/logos/mathworks.png){ width="36" } Testing with MATLAB
@@ -16,6 +29,8 @@ A webinar on testing practices with MATLAB, hosted live on LinkedIn.
 **JuliaCon 2024** · Jul 2024 · Eindhoven, Netherlands :flag_nl:
 
 Talk on moving from MATLAB to Julia, given at JuliaCon 2024 and published on the official Julia Programming Language YouTube channel.
+
+<a class="yt-thumb" href="https://www.youtube.com/live/3y5yN7U0HCI" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/matlab-to-julia-juliacon2024.jpg" alt="MATLAB → Julia talk at JuliaCon 2024"></a>
 
 [Watch on YouTube](https://www.youtube.com/live/3y5yN7U0HCI){ target=_blank rel="noreferrer noopener" }
 
@@ -108,6 +123,8 @@ Guest panelist alongside fellow former MathWorks colleagues Steve Wilcockson and
 **Feb 26, 2025** · with host [Jousef Murad](https://www.linkedin.com/in/jousefmurad/){ target=_blank rel="noreferrer noopener" }
 
 Guest appearance discussing software versioning and language transitions across MATLAB, Python, and Julia, with practical examples from automotive, aerospace, and finance, plus code generation, AI integration, and DevOps.
+
+<a class="yt-thumb" href="https://www.youtube.com/watch?v=Aa5VbiWUyts" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/engineered-mind-147.jpg" alt="The Engineered-Mind Podcast #147"></a>
 
 [Read/listen](https://www.engineered-mind.com/podcast/matlab-vs-python-vs-julia-the-hidden-truths-gareth-thomas-podcast-147/){ target=_blank rel="noreferrer noopener" } ·
 [Watch on YouTube](https://www.youtube.com/watch?v=Aa5VbiWUyts){ target=_blank rel="noreferrer noopener" } ·
