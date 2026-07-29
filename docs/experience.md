@@ -84,6 +84,8 @@ Visited and worked with several companies and institutions across the MathWorks 
 
 Gave talks at top engineering universities in Israel, Turkey, Greece, Hungary, and South Africa, and visited universities in Japan. Connected with commercial companies in Turkey on Code Generation, Verification & Validation, DO-178B/C, and ISO standards, and how to leverage HIL simulations to achieve certification. Gave guest lectures at TU Eindhoven, TU Delft, and Fontys Eindhoven, and supported MathWorks distributors in driving their regional Education strategy.
 
+Completed several internal MathWorks training courses, including Difficult Conversations, Presentation Skills, Sales Training, and Salesforce training. Also received media training and served as an official spokesperson for MathWorks.
+
 Still an active member of the MATLAB Central community since 2011 — rank 549 of 301,994, 70 Answers contributed, 3 files published, and 2,608 total downloads.
 
 [mathworks.com](https://www.mathworks.com/){ target=_blank rel="noreferrer noopener" } ·
