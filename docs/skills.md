@@ -20,6 +20,10 @@ Self-rated on a simple scale, based on demonstrated experience across this CV:
 | CI/CD | ★★★★ | "Continuous Integration with MATLAB" talk at MATLAB Coders & Jenkins, and automated MATLAB testing pipelines with GitHub Actions |
 | Azure DevOps | ★★★ | Applied within enterprise consulting engagements at CGI |
 | Testing & Test Automation | ★★★★ | Built VersionBay's automatic regression-test generation and pipeline product, ran [ASML regression testing](experience.md#entrepreneurial-ventures) engagements, and gave the ["Top 10 Lessons in Adopting Playwright"](talks.md) talk as CGI/ProRail Tester |
+| Playwright | ★★★ | Front-end testing work at [CGI/ProRail](experience.md#cgi-nederland), plus the ["Top 10 Lessons Learnt in Adopting Playwright"](talks.md) talk |
+| Behave | ★★★ | BDD testing work at [ASML](experience.md#entrepreneurial-ventures) |
+| Kubernetes | ★★★ | Applied in delivery work at [CGI/ProRail](experience.md#cgi-nederland) |
+| k6 | ★★★ | Load testing work at [CGI/ProRail](experience.md#cgi-nederland) |
 | Julia | ★★★ | Organizes JuliaLang Eindhoven, gave the ["MATLAB → Julia" talk at JuliaCon 2024](talks.md), and maintains [Julia Jokes](hobbies.md#built-maintain) |
 | Python | ★★★ | Chairs [PyData Eindhoven](events.md), a 1,200+ member data & Python community, for six years running |
 | NumPy | ★★ | Hosted an in-depth conversation with Ralf Gommers, Director of Quansight Labs, on [Inspiring Computing](podcast.md) |

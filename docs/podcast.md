@@ -6,6 +6,8 @@
 
 *"Where computing meets the real world"* — conversations with advanced users of MATLAB, Python, and Julia who use these tools to deepen understanding and gain insight, from open-source maintainers to founders and researchers. The continuation of **Tangible Computing** (below), under a new name.
 
+Episodes have been highlighted on [Radio 4 Brainport](https://www.radio4brainport.org){ target=_blank rel="noreferrer noopener" }, the English-language community radio station for the Eindhoven Brainport region.
+
 [Listen on inspiringcomputing.com](https://www.inspiringcomputing.com/2107763/episodes){ target=_blank rel="noreferrer noopener" }
 
 ### Inspiring Computing Episodes

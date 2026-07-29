@@ -13,30 +13,30 @@ Through PyData Eindhoven events, has raised and donated over €75,000 to open s
 **2025**
 
 - PyData Eindhoven 2025 — Dec 9, 2025 · Conference Center The Strip, HTC · 23 talks across Data Engineering, AI & ML, and Sport Analytics (with PySport)
-- PyData x Pipple Meetup — Nov 18, 2025 · 13 attendees · "The Power of Data and AI in Practice"
-- PyData Meetup @ BigData Republic — Oct 23, 2025 · 13 attendees · Utrecht — included Gareth's own talk, "Getting Started with Soccer Analytics" (see [Talks Given](talks.md))
-- PyData Meetup @ Bright Cape — Apr 2, 2025 · 42 attendees · "Scalable AI & Cloud Deployments"
+- ![Pipple](assets/logos/pipple.png){ width="16" } PyData x Pipple Meetup — Nov 18, 2025 · 13 attendees · "The Power of Data and AI in Practice"
+- ![BigData Republic](assets/logos/bigdatarepublic.png){ width="16" } PyData Meetup @ BigData Republic — Oct 23, 2025 · 13 attendees · Utrecht — included Gareth's own talk, "Getting Started with Soccer Analytics" (see [Talks Given](talks.md))
+- ![Bright Cape](assets/logos/brightcape.png){ width="16" } PyData Meetup @ Bright Cape — Apr 2, 2025 · 42 attendees · "Scalable AI & Cloud Deployments"
 
 **2024**
 
-- Cutting-Edge AI and Machine Learning Innovations, with Kickstart.ai — Sep 10, 2024 · 46 attendees · AI Innovation Center, HTC
+- ![Kickstart.ai](assets/logos/kickstartai.svg){ width="16" } Cutting-Edge AI and Machine Learning Innovations, with Kickstart.ai — Sep 10, 2024 · 46 attendees · AI Innovation Center, HTC
 - PyData Eindhoven 2024 — Jul 11, 2024 · Philips Stadium
-- Effective Strategies for Optimizing Cloud Costs, with Eindhoven Data Community — Mar 28, 2024 · HTC 60, hosted by NXP
+- ![NXP](assets/logos/nxp.svg){ width="16" } Effective Strategies for Optimizing Cloud Costs, with Eindhoven Data Community — Mar 28, 2024 · HTC 60, hosted by NXP
 
 **2023**
 
 - PyData Eindhoven 2023 — Nov 30, 2023
-- PyData Meetup @ Vanderlande: ML Automation in the Logistics Domain — Sep 5, 2023 · 65 attendees · Veghel
-- PyData Meetup @ Jumbo: Solving Business Problems with Python — May 25, 2023 · 52 attendees · Veghel
-- PyData Meetup @ Prodrive Technologies — Apr 26, 2023 · 39 attendees · "Python and Mechatronics"
-- Python with Purpose @ Pipple — Mar 2, 2023 · 56 attendees · Eindhoven
-- PyData Meetup: Demand Forecasting and Logistic Optimization @ EyeOn — Jan 26, 2023 · 38 attendees · Aarle-Rixtel
+- ![Vanderlande](assets/logos/vanderlande.png){ width="16" } PyData Meetup @ Vanderlande: ML Automation in the Logistics Domain — Sep 5, 2023 · 65 attendees · Veghel
+- ![Jumbo](assets/logos/jumbo.png){ width="16" } PyData Meetup @ Jumbo: Solving Business Problems with Python — May 25, 2023 · 52 attendees · Veghel
+- ![Prodrive Technologies](assets/logos/prodrive.svg){ width="16" } PyData Meetup @ Prodrive Technologies — Apr 26, 2023 · 39 attendees · "Python and Mechatronics"
+- ![Pipple](assets/logos/pipple.png){ width="16" } Python with Purpose @ Pipple — Mar 2, 2023 · 56 attendees · Eindhoven
+- ![EyeOn](assets/logos/eyeon.png){ width="16" } PyData Meetup: Demand Forecasting and Logistic Optimization @ EyeOn — Jan 26, 2023 · 38 attendees · Aarle-Rixtel
 
 **2022**
 
-- PyData Eindhoven Conference — Dec 2, 2022 · HTC · ticket proceeds donated to NumFOCUS
-- PyData Automotive Meetup @ DAF — Oct 25, 2022 · 58 attendees · Eindhoven
-- PyData Eindhoven Meetup — Back to Face-to-Face Meetups, hosted by VersionBay — Jul 21, 2022 · HTC 5
+- ![NumFOCUS](assets/logos/numfocus.png){ width="16" } PyData Eindhoven Conference — Dec 2, 2022 · HTC · ticket proceeds donated to NumFOCUS
+- ![DAF](assets/logos/daf.svg){ width="16" } PyData Automotive Meetup @ DAF — Oct 25, 2022 · 58 attendees · Eindhoven
+- ![VersionBay](assets/logos/versionbay.png){ width="16" } PyData Eindhoven Meetup — Back to Face-to-Face Meetups, hosted by VersionBay — Jul 21, 2022 · HTC 5
 
 **Talk playlists:** [2025](https://youtube.com/playlist?list=PLGVZCDnMOq0qE4NA_fkVLZABsRs8waMVC){ target=_blank rel="noreferrer noopener" } ·
 [2024](https://youtube.com/playlist?list=PLGVZCDnMOq0q7a2aoNP1au_1egfZEjGL6){ target=_blank rel="noreferrer noopener" } ·
@@ -55,7 +55,7 @@ Through PyData Eindhoven events, has raised and donated over €75,000 to open s
 
 357 members · 4.7★ (46 ratings). *"Algorithm Excellence, Shared Experience"* — a sales-free technical community for algorithm development across MATLAB, Python, Julia, Rust, and more, with 6 other organizers. Formerly **MATLAB Coders** (founded May 2019 as a [hobby project](hobbies.md#matlab-coders)), rebranded AlgoSphere Eindhoven to reflect its broader, language-agnostic focus.
 
-- **Challenges on Developing Real-Time Algorithms** — Oct 10, 2024 · Cafe 100 Watt, Stadsbrouwerij Eindhoven · 46 attendees · sponsored by ASML
+- ![ASML](assets/logos/asml.png){ width="16" } **Challenges on Developing Real-Time Algorithms** — Oct 10, 2024 · Cafe 100 Watt, Stadsbrouwerij Eindhoven · 46 attendees · sponsored by ASML
     - "20,000 Leagues Under MATLAB, Python and Julia: A Numerical Journey" — Jorge Vieyra, Julia Lead Engineer at ASML
     - "War Stories with Sensor Fusion" — Marcus Forte, System Architect at Vanderlande / Sioux
     - "Co-Design in Radio Astronomy, a Use Case in Fourier Domain Dedispersion" — Steven van der Vlugt, Researcher Computer Systems at ASTRON
@@ -72,16 +72,16 @@ Through PyData Eindhoven events, has raised and donated over €75,000 to open s
 
 362 members · 4.9★ (34 ratings), with 6 other organizers. A place for people passionate about Julia to share experiences in the Eindhoven region — no sales, no marketing, no recruiting, just technical people solving technical problems.
 
-- **Julia x Rust Meetup Eindhoven** — Jun 17, 2025 · ASML · 46 attendees · with RustNL
+- ![ASML](assets/logos/asml.png){ width="16" } **Julia x Rust Meetup Eindhoven** — Jun 17, 2025 · ASML · 46 attendees · with RustNL
     - "Low-Level Shenanigans in a High-Level Language" — Tim Besard, JuliaHub
     - "What Actually Are Attributes?" — Jana Dönszelmann, Hexcat / RustNL
     - Panel discussion led by Jorge Vieyra (ASML) and Gareth Thomas (CGI)
-- **Rust x Julia Meetup Eindhoven** — Mar 25, 2025 · Sioux Labs · 17 attendees · with RustNL
+- ![Sioux](assets/logos/sioux.png){ width="16" } **Rust x Julia Meetup Eindhoven** — Mar 25, 2025 · Sioux Labs · 17 attendees · with RustNL
     - "Julia in C World: Fast, Safe and Seamless" — Yury, ASML
     - "Rust and Julia, ¿por qué no los dos?" — Thomas, Vention
     - "Fearless Refactoring in Rust" — Martin, ROCSYS
 - **We will be at JuliaCon 2024!** — Jul 9, 2024 · Philips Stadium, Eindhoven · 7 attendees
-- **Numerical Modeling with Julia @ Deltares** — Mar 6, 2024 · 50 attendees
+- ![Deltares](assets/logos/deltares.png){ width="16" } **Numerical Modeling with Julia @ Deltares** — Mar 6, 2024 · 50 attendees
     - "Using Julia for Portable GPU Programming" — Tim Besard, JuliaHub
     - "Hydrological Modelling in Julia with Ribasim" — Huite Bootsma, Deltares
     - "Finite Element Modeling of Assets in Future Distribution Grids Using Julia" — Domenico Lahaye, TU Delft
@@ -106,8 +106,8 @@ JuliaCon 2024 — the 11th annual JuliaCon — was held in Eindhoven, organized 
 
 Co-hosts recurring evening events at ASML, pairing external speakers with networking and food.
 
-- Cloud Native @ASML with Octopus: ArgoCD and more! — Sep 29, 2025 · ASML Global HQ, Veldhoven
-- Cloud Native @ASML: How to scale without limits — Jan 20, 2026 · ASML Building 7, Veldhoven
+- ![ASML](assets/logos/asml.png){ width="16" } Cloud Native @ASML with Octopus: ArgoCD and more! — Sep 29, 2025 · ASML Global HQ, Veldhoven
+- ![ASML](assets/logos/asml.png){ width="16" } Cloud Native @ASML: How to scale without limits — Jan 20, 2026 · ASML Building 7, Veldhoven
 
 [meetup.com/dutch-cloud-native](https://www.meetup.com/dutch-cloud-native/){ target=_blank rel="noreferrer noopener" }
 
@@ -115,7 +115,7 @@ Co-hosts recurring evening events at ASML, pairing external speakers with networ
 
 **Host** (with Marnix Kammer) · Eindhoven Area, Netherlands :flag_nl:
 
-- JAVA and Performance — Mar 5, 2026 · High Tech Campus, Eindhoven · with a CGI introduction segment
+- ![CGI](assets/logos/cgi.png){ width="16" } JAVA and Performance — Mar 5, 2026 · High Tech Campus, Eindhoven · with a CGI introduction segment
 
 [luma.com/pb5zmwyk](https://luma.com/pb5zmwyk){ target=_blank rel="noreferrer noopener" }
 
