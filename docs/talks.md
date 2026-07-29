@@ -14,7 +14,7 @@ Talk on moving from MATLAB to Julia, given at JuliaCon 2024 and published on the
 
 **Barcelona Julia Meetup** · Apr 11, 2024 · Norrsken House, Barcelona, Spain
 
-Shared four projects undertaken to get up to speed with Julia — the challenges and discoveries from the first 10 hours coming from a MATLAB background — alongside Jorge Vieyra (ASML) on "ASML's Julia Journey" and Pere Giménez (Genie) on "A Beginner's Introduction to Julia."
+Shared four projects undertaken to get up to speed with Julia — the challenges and discoveries from the first 10 hours coming from a MATLAB background — alongside [Jorge Vieyra](https://www.linkedin.com/in/jorge-vieyra-76280542/){ target=_blank rel="noreferrer noopener" } (ASML) on "ASML's Julia Journey" and [Pere Giménez](https://www.linkedin.com/in/pere-gim%C3%A9nez-febrer-678235129/){ target=_blank rel="noreferrer noopener" } (Genie) on "A Beginner's Introduction to Julia."
 
 [View event on Meetup](https://www.meetup.com/cf1f2156-154f-4b84-80db-295496535ead/events/299573017/){ target=_blank rel="noreferrer noopener" }
 
@@ -76,7 +76,7 @@ Guest panelist alongside fellow former MathWorks colleagues Steve Wilcockson and
 
 ### The Engineered-Mind Podcast — #147: MATLAB vs. Python vs. Julia: The Hidden Truths
 
-**Feb 26, 2025** · with host Jousef Murad
+**Feb 26, 2025** · with host [Jousef Murad](https://www.linkedin.com/in/jousefmurad/){ target=_blank rel="noreferrer noopener" }
 
 Guest appearance discussing software versioning and language transitions across MATLAB, Python, and Julia, with practical examples from automotive, aerospace, and finance, plus code generation, AI integration, and DevOps.
 

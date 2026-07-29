@@ -56,11 +56,11 @@ Through PyData Eindhoven events, has raised and donated over €75,000 to open s
 357 members · 4.7★ (46 ratings). *"Algorithm Excellence, Shared Experience"* — a sales-free technical community for algorithm development across MATLAB, Python, Julia, Rust, and more, with 6 other organizers. Formerly **MATLAB Coders** (founded May 2019 as a [hobby project](hobbies.md#matlab-coders)), rebranded AlgoSphere Eindhoven to reflect its broader, language-agnostic focus.
 
 - ![ASML](assets/logos/asml.png){ width="16" } **Challenges on Developing Real-Time Algorithms** — Oct 10, 2024 · Cafe 100 Watt, Stadsbrouwerij Eindhoven · 46 attendees · sponsored by ASML
-    - "20,000 Leagues Under MATLAB, Python and Julia: A Numerical Journey" — Jorge Vieyra, Julia Lead Engineer at ASML
-    - "War Stories with Sensor Fusion" — Marcus Forte, System Architect at Vanderlande / Sioux
+    - "20,000 Leagues Under MATLAB, Python and Julia: A Numerical Journey" — [Jorge Vieyra](https://www.linkedin.com/in/jorge-vieyra-76280542/){ target=_blank rel="noreferrer noopener" }, Julia Lead Engineer at ASML
+    - "War Stories with Sensor Fusion" — [Marcus Forte](https://www.linkedin.com/in/marcusdaviforte/){ target=_blank rel="noreferrer noopener" }, System Architect at Vanderlande / Sioux
     - "Co-Design in Radio Astronomy, a Use Case in Fourier Domain Dedispersion" — Steven van der Vlugt, Researcher Computer Systems at ASTRON
 - **MATLABers Unite @ High Tech Campus** — Nov 21, 2023 · HTC Building 5 · 13 attendees
-    - "Making Your MATLAB Code Ready for Deployment Using C++ Code Generation" — Co Melissant, CTO & Senior Consultant
+    - "Making Your MATLAB Code Ready for Deployment Using C++ Code Generation" — [Co Melissant](https://www.linkedin.com/in/comelissant/){ target=_blank rel="noreferrer noopener" }, CTO & Senior Consultant
     - "My Favourite New Features in MATLAB R2023a and R2023b" — Gareth Thomas
 - 11 further MATLAB Coders meetups, 2019–2021, in person around Eindhoven (Sioux, Avular, ICT, ALTEN) and online through the pandemic — including several "What's New in MATLAB" release talks by Gareth, see [Talks Given](talks.md)
 
@@ -73,23 +73,23 @@ Through PyData Eindhoven events, has raised and donated over €75,000 to open s
 362 members · 4.9★ (34 ratings), with 6 other organizers. A place for people passionate about Julia to share experiences in the Eindhoven region — no sales, no marketing, no recruiting, just technical people solving technical problems.
 
 - ![ASML](assets/logos/asml.png){ width="16" } **Julia x Rust Meetup Eindhoven** — Jun 17, 2025 · ASML · 46 attendees · with RustNL
-    - "Low-Level Shenanigans in a High-Level Language" — Tim Besard, JuliaHub
+    - "Low-Level Shenanigans in a High-Level Language" — [Tim Besard](https://www.linkedin.com/in/tim-besard-6b766031/){ target=_blank rel="noreferrer noopener" }, JuliaHub
     - "What Actually Are Attributes?" — Jana Dönszelmann, Hexcat / RustNL
-    - Panel discussion led by Jorge Vieyra (ASML) and Gareth Thomas (CGI)
+    - Panel discussion led by [Jorge Vieyra](https://www.linkedin.com/in/jorge-vieyra-76280542/){ target=_blank rel="noreferrer noopener" } (ASML) and Gareth Thomas (CGI)
 - ![Sioux](assets/logos/sioux.png){ width="16" } **Rust x Julia Meetup Eindhoven** — Mar 25, 2025 · Sioux Labs · 17 attendees · with RustNL
     - "Julia in C World: Fast, Safe and Seamless" — Yury, ASML
     - "Rust and Julia, ¿por qué no los dos?" — Thomas, Vention
     - "Fearless Refactoring in Rust" — Martin, ROCSYS
 - **We will be at JuliaCon 2024!** — Jul 9, 2024 · Philips Stadium, Eindhoven · 7 attendees
 - ![Deltares](assets/logos/deltares.png){ width="16" } **Numerical Modeling with Julia @ Deltares** — Mar 6, 2024 · 50 attendees
-    - "Using Julia for Portable GPU Programming" — Tim Besard, JuliaHub
+    - "Using Julia for Portable GPU Programming" — [Tim Besard](https://www.linkedin.com/in/tim-besard-6b766031/){ target=_blank rel="noreferrer noopener" }, JuliaHub
     - "Hydrological Modelling in Julia with Ribasim" — Huite Bootsma, Deltares
     - "Finite Element Modeling of Assets in Future Distribution Grids Using Julia" — Domenico Lahaye, TU Delft
 - **JuliaCon Local Eindhoven 2023** — Dec 1, 2023 · High Tech Campus · 8 attendees
 - **Positioning Julia** — Sep 28, 2023 · ALTEN · 38 attendees
-    - "Interactive Data Dashboards with Genie: Design to Deployment" — Pere Giménez, Genie
-    - "Easiness of Algorithm Deployment" — Evangelos Paradas, ASML
-    - "Julia's Rise in the TIOBE Index" & "Code Quality Checkers in Julia" — Paul Jansen, TIOBE
+    - "Interactive Data Dashboards with Genie: Design to Deployment" — [Pere Giménez](https://www.linkedin.com/in/pere-gim%C3%A9nez-febrer-678235129/){ target=_blank rel="noreferrer noopener" }, Genie
+    - "Easiness of Algorithm Deployment" — [Evangelos Paradas](https://www.linkedin.com/in/evangelos-paradas/){ target=_blank rel="noreferrer noopener" }, ASML
+    - "Julia's Rise in the TIOBE Index" & "Code Quality Checkers in Julia" — [Paul Jansen](https://www.linkedin.com/in/paul-jansen-299429/){ target=_blank rel="noreferrer noopener" }, TIOBE
 - **Free Workshop: Interactive Web Apps in Julia with Genie** — Sep 28, 2023 · High Tech Campus · 15 attendees
 
 JuliaCon 2024 — the 11th annual JuliaCon — was held in Eindhoven, organized alongside the local Julia community:

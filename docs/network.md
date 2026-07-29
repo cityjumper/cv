@@ -95,7 +95,7 @@ Over 7,000 LinkedIn connections, built across two decades in engineering, academ
 <text x="845.9" y="191.3" text-anchor="start" class="label label-leaf">Ralf Gommers · NumPy</text>
 <text x="907.2" y="267.0" text-anchor="start" class="label label-leaf">Wolf Vollprecht · Pixi</text>
 <text x="948.4" y="355.4" text-anchor="start" class="label label-leaf">Ritchie Vink · Polars</text>
-<text x="967.0" y="451.1" text-anchor="start" class="label label-leaf">Tim Besard · JuliaHub</text>
+<a href="https://www.linkedin.com/in/tim-besard-6b766031/" target="_blank" rel="noreferrer noopener"><text x="967.0" y="451.1" text-anchor="start" class="label label-leaf label-link">Tim Besard · JuliaHub</text></a>
 <text x="961.9" y="548.5" text-anchor="start" class="label label-leaf">Marco Gorelli · Narwhals</text>
 <a href="../podcast/"><text x="730.7" y="380.3" text-anchor="middle" class="label label-cat label-link">Open Source (Podcast Guests)</text></a>
 <a href="https://www.meetup.com/pydata-eindhoven/" target="_blank" rel="noreferrer noopener"><text x="927.5" y="654.3" text-anchor="start" class="label label-leaf label-link">PyData Eindhoven</text></a>
@@ -124,7 +124,7 @@ High-level relationships built over nearly a decade at MathWorks — spanning ac
 
 ## Open Source
 
-Strong open-source connections, built one conversation at a time through [Inspiring Computing and Tangible Computing](podcast.md) — guests have included Ralf Gommers (Director, Quansight Labs; NumPy), Wolf Vollprecht (Co-founder, Prefix.dev; Pixi), Ritchie Vink (author, Polars), Tim Besard (JuliaHub), and dozens more across the Python, Julia, and Rust ecosystems.
+Strong open-source connections, built one conversation at a time through [Inspiring Computing and Tangible Computing](podcast.md) — guests have included Ralf Gommers (Director, Quansight Labs; NumPy), Wolf Vollprecht (Co-founder, Prefix.dev; Pixi), Ritchie Vink (author, Polars), [Tim Besard](https://www.linkedin.com/in/tim-besard-6b766031/){ target=_blank rel="noreferrer noopener" } (JuliaHub), and dozens more across the Python, Julia, and Rust ecosystems.
 
 ## NumFOCUS & PyData
 
