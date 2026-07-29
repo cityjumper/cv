@@ -9,6 +9,170 @@
 [Download CV (short)](assets/gareth-thomas-cv-short.pdf){ .md-button }
 [Download CV (long)](assets/gareth-thomas-cv-long.pdf){ .md-button }
 
+<div markdown="0">
+<style>
+#cv-bg-canvas {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    width: 100vw;
+    height: 100vh;
+}
+@media (prefers-reduced-motion: reduce) { #cv-bg-canvas { opacity: .7; } }
+</style>
+<script>
+(function () {
+    if (document.getElementById("cv-bg-canvas")) return;
+    var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    var canvas = document.createElement("canvas");
+    canvas.id = "cv-bg-canvas";
+    canvas.setAttribute("aria-hidden", "true");
+    // Appended directly to <body> (not left inline in the article) so its
+    // `position: fixed` is always relative to the real viewport, even if
+    // some ancestor in the theme's layout applies a CSS transform.
+    document.body.appendChild(canvas);
+    var ctx = canvas.getContext("2d");
+    if (!ctx) return;
+
+    var DPR = Math.min(window.devicePixelRatio || 1, 2);
+    var W, H;
+    function resize() {
+        W = Math.max(1, Math.round(window.innerWidth * DPR));
+        H = Math.max(1, Math.round(window.innerHeight * DPR));
+        canvas.width = W;
+        canvas.height = H;
+    }
+    resize();
+
+    // Clifford strange attractor: a chaotic system whose orbit traces an
+    // ever-shifting cloud of points; parameters drift slowly (and lean
+    // toward the pointer) so the pattern never quite repeats.
+    var N = 3200;
+    var xs = new Float32Array(N);
+    var ys = new Float32Array(N);
+    for (var i = 0; i < N; i++) {
+        xs[i] = Math.random() * 4 - 2;
+        ys[i] = Math.random() * 4 - 2;
+    }
+
+    var t = 0, mx = 0, my = 0, tmx = 0, tmy = 0;
+    window.addEventListener("pointermove", function (e) {
+        tmx = (e.clientX / window.innerWidth) * 2 - 1;
+        tmy = (e.clientY / window.innerHeight) * 2 - 1;
+    });
+
+    function iterate(n) {
+        t += 0.0025 * n;
+        mx += (tmx - mx) * 0.02;
+        my += (tmy - my) * 0.02;
+        var a = -1.4 + Math.sin(t * 0.6) * 0.25 + mx * 0.15;
+        var b = 1.6 + Math.cos(t * 0.5) * 0.2 + my * 0.15;
+        var c = 1.0 + Math.sin(t * 0.37) * 0.15;
+        var d = 0.7 + Math.cos(t * 0.29) * 0.15;
+        for (var i = 0; i < N; i++) {
+            var x = xs[i], y = ys[i];
+            xs[i] = Math.sin(a * y) + c * Math.cos(a * x);
+            ys[i] = Math.sin(b * x) + d * Math.cos(b * y);
+        }
+    }
+
+    // Dark theme cycles green -> orange -> blue -> green. Light theme drops
+    // orange and just merges green and blue (a softer teal blend), so it
+    // never reads as white or washes out against a light page.
+    var HUES_DARK = [140, 35, 220];
+    var HUES_LIGHT = [140, 220];
+    function hueAt(phase, hues) {
+        var len = hues.length;
+        var p = ((phase % len) + len) % len;
+        var idx = Math.floor(p);
+        var frac = p - idx;
+        var from = hues[idx], to = hues[(idx + 1) % len];
+        return from + (to - from) * frac;
+    }
+
+    function isDarkScheme() {
+        return document.body.getAttribute("data-md-color-scheme") === "slate";
+    }
+
+    var scale, ox, oy;
+    function computeTransform() {
+        scale = Math.min(W, H) / 4.2;
+        ox = W / 2;
+        oy = H / 2;
+    }
+    computeTransform();
+
+    function draw() {
+        // Fade the previous frame toward transparent (never toward black
+        // or white), so it works over both the light and dark theme.
+        ctx.globalCompositeOperation = "destination-out";
+        ctx.fillStyle = "rgba(0,0,0,0.06)";
+        ctx.fillRect(0, 0, W, H);
+        ctx.globalCompositeOperation = "source-over";
+
+        // Read the active theme each frame so this reacts live to the
+        // light/dark toggle without needing a page reload.
+        var dark = isDarkScheme();
+        var hues = dark ? HUES_DARK : HUES_LIGHT;
+        var lightness = dark ? 46 : 38;
+        var alpha = dark ? 0.16 : 0.1;
+        var huePhase = t * 0.08;
+        var size = Math.max(1, 1.3 * DPR);
+        for (var i = 0; i < N; i++) {
+            var px = ox + xs[i] * scale;
+            var py = oy + ys[i] * scale;
+            if (px < 0 || px > W || py < 0 || py > H) continue;
+            var hue = hueAt(huePhase + (xs[i] + ys[i]) * 0.15, hues);
+            // Moderate saturation, low lightness/alpha keep this subtle and
+            // legible behind text, never washing out toward white.
+            ctx.fillStyle = "hsla(" + hue + ", 65%, " + lightness + "%, " + alpha + ")";
+            ctx.fillRect(px, py, size, size);
+        }
+    }
+
+    // Warm up so the very first paint already shows a full pattern,
+    // instead of particles slowly trickling in from a blank canvas.
+    for (var w = 0; w < 40; w++) iterate(1);
+
+    var raf, running = true;
+    function loop() {
+        iterate(1);
+        draw();
+        if (running) raf = requestAnimationFrame(loop);
+    }
+
+    if (reduceMotion) {
+        for (var k = 0; k < 30; k++) iterate(1);
+        draw();
+    } else {
+        for (var k2 = 0; k2 < 12; k2++) { iterate(1); draw(); }
+        raf = requestAnimationFrame(loop);
+    }
+
+    document.addEventListener("visibilitychange", function () {
+        if (document.hidden) {
+            running = false;
+            if (raf) cancelAnimationFrame(raf);
+        } else if (!reduceMotion) {
+            running = true;
+            raf = requestAnimationFrame(loop);
+        }
+    });
+
+    var resizeTimer;
+    window.addEventListener("resize", function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function () {
+            resize();
+            computeTransform();
+        }, 150);
+    });
+})();
+</script>
+</div>
+
 ## Where I've worked
 
 [![CGI](assets/logos/cgi.png){ width="48" }](experience.md#cgi-nederland)
