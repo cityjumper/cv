@@ -22,7 +22,6 @@ nav = [
   { "Talks Given" = "talks.md" },
   { "Network" = "network.md" },
   { "Hobbies" = "hobbies.md" },
-  { "Languages" = "languages.md" },
 ]
 
 [project.theme]

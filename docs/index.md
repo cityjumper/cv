@@ -205,6 +205,8 @@ I'm a consultant and founder with a control-theory engineering foundation. After
 
 Raised in an actuarial family, and now married with two kids. I try to live my motto, not just say it: I build my own apps ([Meetello](hobbies.md#built-maintain), [Brainport AI's Game Hub](hobbies.md#built-maintain)), lean on AI daily to accelerate my work, and even used it to build this very CV site.
 
+**Languages:** :flag_gb: English, :flag_pt: Portuguese, :flag_it: Italian, :flag_nl: Dutch (basic understanding and speaking).
+
 ## What people say
 
 A few LinkedIn recommendations from colleagues and clients over the years:
