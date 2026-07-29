@@ -1,3 +1,6 @@
 .venv/
 site/
 __pycache__/
+
+# Raw personal data exports - never publish or commit
+private/

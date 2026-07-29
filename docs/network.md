@@ -131,3 +131,106 @@ Strong open-source connections, built one conversation at a time through [Inspir
 Helped drive NumFOCUS's growth within the Julia community and across [PyData events](events.md#pydata-eindhoven), and organized the first-ever NumFOCUS PyData European Organizer Workshop.
 
 [LinkedIn profile](https://nl.linkedin.com/in/g-thomas){ target=_blank rel="noreferrer noopener" }
+
+## LinkedIn Connections by Company
+
+Aggregated from a real export of all 6,886 LinkedIn connections, spanning 4,267 companies — shown here as company-level counts only, with no individual names, to respect the privacy of people in the network who haven't agreed to be listed individually.
+
+<div class="network-graph-wrap" markdown="0">
+<style>
+.company-chart { width: 100%; height: auto; display: block; }
+.company-chart .bar { fill: var(--md-primary-fg-color); }
+.company-chart .label-company { fill: var(--md-default-fg-color--light); font-size: 13px; }
+.company-chart .label-value { fill: var(--md-default-fg-color); font-size: 13px; font-weight: 600; }
+</style>
+<svg viewBox="0 0 900 640" xmlns="http://www.w3.org/2000/svg" class="company-chart" role="img" aria-label="Bar chart of Gareth Thomas's top 20 companies by LinkedIn connection count, out of 6886 total connections across 4267 companies">
+  <g>
+    <rect x="246" y="20" width="560.0" height="16" rx="3" class="bar" />
+    <rect x="246" y="50" width="249.3" height="16" rx="3" class="bar" />
+    <rect x="246" y="80" width="85.7" height="16" rx="3" class="bar" />
+    <rect x="246" y="110" width="45.8" height="16" rx="3" class="bar" />
+    <rect x="246" y="140" width="41.9" height="16" rx="3" class="bar" />
+    <rect x="246" y="170" width="39.0" height="16" rx="3" class="bar" />
+    <rect x="246" y="200" width="24.3" height="16" rx="3" class="bar" />
+    <rect x="246" y="230" width="23.4" height="16" rx="3" class="bar" />
+    <rect x="246" y="260" width="18.5" height="16" rx="3" class="bar" />
+    <rect x="246" y="290" width="17.5" height="16" rx="3" class="bar" />
+    <rect x="246" y="320" width="16.6" height="16" rx="3" class="bar" />
+    <rect x="246" y="350" width="16.6" height="16" rx="3" class="bar" />
+    <rect x="246" y="380" width="15.6" height="16" rx="3" class="bar" />
+    <rect x="246" y="410" width="14.6" height="16" rx="3" class="bar" />
+    <rect x="246" y="440" width="13.6" height="16" rx="3" class="bar" />
+    <rect x="246" y="470" width="13.6" height="16" rx="3" class="bar" />
+    <rect x="246" y="500" width="13.6" height="16" rx="3" class="bar" />
+    <rect x="246" y="530" width="13.6" height="16" rx="3" class="bar" />
+    <rect x="246" y="560" width="12.7" height="16" rx="3" class="bar" />
+    <rect x="246" y="590" width="12.7" height="16" rx="3" class="bar" />
+  </g>
+  <g>
+    <text x="236" y="32.0" text-anchor="end" class="label label-company">MathWorks</text>
+    <text x="236" y="62.0" text-anchor="end" class="label label-company">ASML</text>
+    <text x="236" y="92.0" text-anchor="end" class="label label-company">CGI</text>
+    <text x="236" y="122.0" text-anchor="end" class="label label-company">Eindhoven University of Technology</text>
+    <text x="236" y="152.0" text-anchor="end" class="label label-company">Open iT</text>
+    <text x="236" y="182.0" text-anchor="end" class="label label-company">Philips</text>
+    <text x="236" y="212.0" text-anchor="end" class="label label-company">Sioux Technologies</text>
+    <text x="236" y="242.0" text-anchor="end" class="label label-company">NXP Semiconductors</text>
+    <text x="236" y="272.0" text-anchor="end" class="label label-company">Rabobank</text>
+    <text x="236" y="302.0" text-anchor="end" class="label label-company">Instituto Superior Técnico</text>
+    <text x="236" y="332.0" text-anchor="end" class="label label-company">DAF Trucks NV</text>
+    <text x="236" y="362.0" text-anchor="end" class="label label-company">Synopsys Inc</text>
+    <text x="236" y="392.0" text-anchor="end" class="label label-company">Vanderlande</text>
+    <text x="236" y="422.0" text-anchor="end" class="label label-company">Google</text>
+    <text x="236" y="452.0" text-anchor="end" class="label label-company">Microsoft</text>
+    <text x="236" y="482.0" text-anchor="end" class="label label-company">Pipple</text>
+    <text x="236" y="512.0" text-anchor="end" class="label label-company">Siemens Digital Industries Software</text>
+    <text x="236" y="542.0" text-anchor="end" class="label label-company">Apple</text>
+    <text x="236" y="572.0" text-anchor="end" class="label label-company">JuliaHub</text>
+    <text x="236" y="602.0" text-anchor="end" class="label label-company">Amazon</text>
+    <text x="814.0" y="32.0" text-anchor="start" class="label label-value">575</text>
+    <text x="503.3" y="62.0" text-anchor="start" class="label label-value">256</text>
+    <text x="339.7" y="92.0" text-anchor="start" class="label label-value">88</text>
+    <text x="299.8" y="122.0" text-anchor="start" class="label label-value">47</text>
+    <text x="295.9" y="152.0" text-anchor="start" class="label label-value">43</text>
+    <text x="293.0" y="182.0" text-anchor="start" class="label label-value">40</text>
+    <text x="278.3" y="212.0" text-anchor="start" class="label label-value">25</text>
+    <text x="277.4" y="242.0" text-anchor="start" class="label label-value">24</text>
+    <text x="272.5" y="272.0" text-anchor="start" class="label label-value">19</text>
+    <text x="271.5" y="302.0" text-anchor="start" class="label label-value">18</text>
+    <text x="270.6" y="332.0" text-anchor="start" class="label label-value">17</text>
+    <text x="270.6" y="362.0" text-anchor="start" class="label label-value">17</text>
+    <text x="269.6" y="392.0" text-anchor="start" class="label label-value">16</text>
+    <text x="268.6" y="422.0" text-anchor="start" class="label label-value">15</text>
+    <text x="267.6" y="452.0" text-anchor="start" class="label label-value">14</text>
+    <text x="267.6" y="482.0" text-anchor="start" class="label label-value">14</text>
+    <text x="267.6" y="512.0" text-anchor="start" class="label label-value">14</text>
+    <text x="267.6" y="542.0" text-anchor="start" class="label label-value">14</text>
+    <text x="266.7" y="572.0" text-anchor="start" class="label label-value">13</text>
+    <text x="266.7" y="602.0" text-anchor="start" class="label label-value">13</text>
+  </g>
+</svg>
+</div>
+
+??? note "View as table"
+    | Company | Connections |
+    |---|---|
+    | MathWorks | 575 |
+    | ASML | 256 |
+    | CGI | 88 |
+    | Eindhoven University of Technology | 47 |
+    | Open iT | 43 |
+    | Philips | 40 |
+    | Sioux Technologies | 25 |
+    | NXP Semiconductors | 24 |
+    | Rabobank | 19 |
+    | Instituto Superior Técnico | 18 |
+    | DAF Trucks NV | 17 |
+    | Synopsys Inc | 17 |
+    | Vanderlande | 16 |
+    | Google | 15 |
+    | Microsoft | 14 |
+    | Pipple | 14 |
+    | Siemens Digital Industries Software | 14 |
+    | Apple | 14 |
+    | JuliaHub | 13 |
+    | Amazon | 13 |
