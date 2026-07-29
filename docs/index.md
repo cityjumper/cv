@@ -2,7 +2,7 @@
 
 **Consultant, technologist, and founder** based in Eindhoven, Netherlands.
 
-**Embracing Change** is my motto — I love adjusting to new technologies and leveraging the right tools for the right job. I'm a consultant, technologist, and founder based in Eindhoven, Netherlands. Over 20 years I've moved from control-theory engineering at MathWorks to co-founding and running software businesses, to consulting delivery at CGI — while chairing PyData Eindhoven's community for six years and co-hosting the Inspiring Computing podcast.
+**Embracing Change** is my motto — I love adjusting to new technologies and leveraging the right tools for the right job. I'm a consultant, technologist, and founder based in Eindhoven, Netherlands. Over 20 years I've moved from control-theory engineering at MathWorks to co-founding and running software businesses, to consulting delivery at CGI — while chairing PyData Eindhoven's community for six years and hosting the Inspiring Computing podcast.
 
 [Get in touch](mailto:gareth.bj.thomas@gmail.com){ .md-button .md-button--primary }
 [LinkedIn profile](https://nl.linkedin.com/in/g-thomas){ .md-button }
