@@ -1,5 +1,7 @@
 # Events Organized
 
+Organizes and hosts recurring technical meetups across data, algorithms, Julia, cloud-native, and Java — all "no sales, no marketing, no recruiting" communities focused purely on technical exchange.
+
 <div markdown="0">
 <style>
 .yt-thumb { display: inline-block; position: relative; border-radius: 8px; overflow: hidden; text-decoration: none; box-shadow: 0 1px 4px rgba(0,0,0,.25); transition: transform .15s ease; max-width: 360px; margin: .5em 0; }
@@ -8,155 +10,275 @@
 .yt-thumb::before { content: ""; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 46px; height: 46px; background: rgba(0,0,0,.6); border-radius: 50%; }
 .yt-thumb::after { content: ""; position: absolute; top: 50%; left: calc(50% + 3px); transform: translate(-50%, -50%); width: 0; height: 0; border-style: solid; border-width: 10px 0 10px 16px; border-color: transparent transparent transparent #fff; }
 .yt-thumb span { display: block; text-align: center; padding: .35em 0; font-size: .8em; color: var(--md-default-fg-color); }
-.yt-thumb-row { display: flex; flex-wrap: wrap; gap: 1em; margin: 1em 0; }
-.yt-thumb-row .yt-thumb { max-width: 200px; flex: 0 1 200px; margin: 0; }
+.yt-thumb-row { display: flex; flex-wrap: wrap; gap: 1em; margin: .5em 0; }
+.yt-thumb-row .yt-thumb { max-width: 160px; flex: 0 1 160px; margin: 0; }
+
+.ev-communities { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1rem 0 2rem; }
+.ev-chip { display: flex; align-items: center; gap: .55rem; padding: .5rem .8rem; border-radius: 8px; background: var(--md-code-bg-color, #f5f5f5); border-left: 3px solid var(--ev-color, #2e7bcf); text-decoration: none; color: inherit; flex: 1 1 230px; min-width: 210px; }
+.ev-chip img { height: 26px; width: auto; max-width: 50px; border-radius: 4px; background: #fff; padding: 2px; object-fit: contain; }
+.ev-chip-text { display: flex; flex-direction: column; }
+.ev-chip-name { font-weight: 600; color: var(--ev-color, #2e7bcf); font-size: .92em; }
+.ev-chip-role { font-size: .78em; opacity: .8; }
+.ev-chip-meta { font-size: .74em; opacity: .65; }
+
+.ev-timeline { position: relative; margin: 1.5rem 0; }
+.ev-timeline::before { content: ""; position: absolute; left: 4px; top: 2px; bottom: 2px; width: 2px; background: var(--md-default-fg-color--lightest, #dfdfdf); }
+.ev-year { display: inline-block; position: relative; padding-left: 1.7rem; margin: 1.8rem 0 .7rem; font-weight: 800; font-size: 1.15em; background: var(--md-default-bg-color, #fff); }
+.ev-item { position: relative; padding: 0 0 1.3rem 1.7rem; }
+.ev-dot { position: absolute; left: 0; top: .3rem; width: 10px; height: 10px; border-radius: 50%; background: var(--ev-color, #2e7bcf); border: 2px solid var(--md-default-bg-color, #fff); box-shadow: 0 0 0 2px var(--ev-color, #2e7bcf); }
+.ev-date { font-size: .72em; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; opacity: .6; margin: 0 0 .1rem; }
+.ev-title { font-weight: 600; margin: 0 0 .15rem; color: var(--ev-color, #2e7bcf); }
+img.ev-logo { height: 18px; width: auto; max-width: 44px; vertical-align: -4px; margin-right: .4rem; border-radius: 3px; background: #fff; padding: 1px; object-fit: contain; }
+.ev-meta { font-size: .85em; margin: 0 0 .3rem; opacity: .9; }
+.ev-item ul { margin: .2rem 0 .4rem 1.1rem; padding: 0; font-size: .85em; }
+.ev-item li { margin: .1rem 0; }
+.ev-links { font-size: .8em; margin: .3rem 0 0; }
+.ev-links a { color: var(--ev-color, #2e7bcf); text-decoration: none; border-bottom: 1px dotted currentColor; }
+.ev-links a:hover { border-bottom-style: solid; }
 </style>
+
+<p class="ev-communities">
+<a id="pydata-eindhoven" class="ev-chip" style="--ev-color:#00bfa5" href="https://www.meetup.com/pydata-eindhoven/" target="_blank" rel="noreferrer noopener"><img src="assets/logos/pydata.png" alt="PyData Eindhoven"><span class="ev-chip-text"><span class="ev-chip-name">PyData Eindhoven</span><span class="ev-chip-role">Organizing Committee Chair &amp; Community Manager</span><span class="ev-chip-meta">1,210 members · 4.7★ · €75k+ raised for OSS</span></span></a>
+<a id="algosphere-eindhoven" class="ev-chip" style="--ev-color:#f9a825" href="https://www.meetup.com/algosphere/" target="_blank" rel="noreferrer noopener"><img src="assets/logos/algosphere.jpg" alt="AlgoSphere Eindhoven"><span class="ev-chip-text"><span class="ev-chip-name">AlgoSphere Eindhoven</span><span class="ev-chip-role">Lead Organizer</span><span class="ev-chip-meta">357 members · 4.7★ · formerly MATLAB Coders</span></span></a>
+<a id="julialang-eindhoven" class="ev-chip" style="--ev-color:#7c4dff" href="https://www.meetup.com/julialang-eindhoven/" target="_blank" rel="noreferrer noopener"><img src="assets/logos/julialang-eindhoven.jpg" alt="JuliaLang Eindhoven"><span class="ev-chip-text"><span class="ev-chip-name">JuliaLang Eindhoven</span><span class="ev-chip-role">Organizer</span><span class="ev-chip-meta">362 members · 4.9★</span></span></a>
+<a id="dutch-cloud-native-ai-community" class="ev-chip" style="--ev-color:#2e7bcf" href="https://www.meetup.com/dutch-cloud-native/" target="_blank" rel="noreferrer noopener"><img src="assets/logos/dutch-cloud-native.jpg" alt="Dutch Cloud Native &amp; AI Community"><span class="ev-chip-text"><span class="ev-chip-name">Dutch Cloud Native &amp; AI Community</span><span class="ev-chip-role">Host</span></span></a>
+<a id="java-eindhoven" class="ev-chip" style="--ev-color:#e53935" href="https://luma.com/pb5zmwyk" target="_blank" rel="noreferrer noopener"><img src="assets/logos/java.svg" alt="JAVA Eindhoven"><span class="ev-chip-text"><span class="ev-chip-name">JAVA Eindhoven</span><span class="ev-chip-role">Host (with Marnix Kammer)</span></span></a>
+<a id="playwright-netherlands" class="ev-chip" style="--ev-color:#2eab6d" href="https://luma.com/7xuqf1sj" target="_blank" rel="noreferrer noopener"><img src="assets/logos/playwright.svg" alt="Playwright Netherlands"><span class="ev-chip-text"><span class="ev-chip-name">Playwright Netherlands</span><span class="ev-chip-role">Host</span></span></a>
+<a id="foss4gnl" class="ev-chip" style="--ev-color:#6d4c41" href="https://foss4g.nl" target="_blank" rel="noreferrer noopener"><span class="ev-chip-text"><span class="ev-chip-name">FOSS4GNL</span><span class="ev-chip-role">Moderator</span></span></a>
+<a id="tedxeindhoven" class="ev-chip" style="--ev-color:#e62b1e" href="https://www.tedxeindhoven.nl" target="_blank" rel="noreferrer noopener"><img src="assets/logos/tedxeindhoven.png" alt="TEDxEindhoven"><span class="ev-chip-text"><span class="ev-chip-name">TEDxEindhoven</span><span class="ev-chip-role">Sponsor Manager (part-time volunteer)</span></span></a>
+</p>
+
+<div class="ev-timeline">
+
+<p class="ev-year">2026</p>
+
+<div class="ev-item" style="--ev-color:#6d4c41"><div class="ev-dot"></div>
+<p class="ev-date">Jul 8–9, 2026 · Groningen</p>
+<p class="ev-title">FOSS4GNL 2026</p>
+<p class="ev-meta">Free and Open Source Software for Geospatial — a two-day conference and workshop organized by OSGeo.nl and the Jantina Tammes School (RUG).</p>
 </div>
 
-Organizes and hosts recurring technical meetups across data, algorithms, Julia, cloud-native, and Java — all "no sales, no marketing, no recruiting" communities focused purely on technical exchange.
-
-## ![PyData](assets/logos/pydata.png){ width="40" } PyData Eindhoven
-
-**Organizing Committee Chair & Community Manager** · Jan 2020 – Present · 6 yrs 7 mo · Eindhoven Area, Netherlands :flag_nl:
-
-1,210 members · 4.7★ (110 ratings) · part of the global PyData network (98 groups), with NumFOCUS, Inc. as super organizer. Leads the group alongside 10 other organizers, promoting best practices in data management, processing, analytics, and visualization with Python, Julia, and R.
-
-Through PyData Eindhoven events, has raised and donated over €75,000 to open source projects.
-
-**2025**
-
-- PyData Eindhoven 2025 — Dec 9, 2025 · Conference Center The Strip, HTC · 23 talks across Data Engineering, AI & ML, and Sport Analytics (with PySport)
-- ![Pipple](assets/logos/pipple.png){ width="16" } PyData x Pipple Meetup — Nov 18, 2025 · 13 attendees · "The Power of Data and AI in Practice"
-- ![BigData Republic](assets/logos/bigdatarepublic.png){ width="16" } PyData Meetup @ BigData Republic — Oct 23, 2025 · 13 attendees · Utrecht — included Gareth's own talk, ["Getting Started with Soccer Analytics"](talks.md#getting-started-with-soccer-analytics)
-- ![Bright Cape](assets/logos/brightcape.png){ width="16" } PyData Meetup @ Bright Cape — Apr 2, 2025 · 42 attendees · "Scalable AI & Cloud Deployments"
-
-**2024**
-
-- ![Kickstart.ai](assets/logos/kickstartai.svg){ width="16" } Cutting-Edge AI and Machine Learning Innovations, with Kickstart.ai — Sep 10, 2024 · 46 attendees · AI Innovation Center, HTC
-- PyData Eindhoven 2024 — Jul 11, 2024 · Philips Stadium
-- ![NXP](assets/logos/nxp.svg){ width="16" } Effective Strategies for Optimizing Cloud Costs, with Eindhoven Data Community — Mar 28, 2024 · HTC 60, hosted by NXP
-
-**2023**
-
-- PyData Eindhoven 2023 — Nov 30, 2023
-- ![Vanderlande](assets/logos/vanderlande.png){ width="16" } PyData Meetup @ Vanderlande: ML Automation in the Logistics Domain — Sep 5, 2023 · 65 attendees · Veghel
-- ![Jumbo](assets/logos/jumbo.png){ width="16" } PyData Meetup @ Jumbo: Solving Business Problems with Python — May 25, 2023 · 52 attendees · Veghel
-- ![Prodrive Technologies](assets/logos/prodrive.svg){ width="16" } PyData Meetup @ Prodrive Technologies — Apr 26, 2023 · 39 attendees · "Python and Mechatronics"
-- ![Pipple](assets/logos/pipple.png){ width="16" } Python with Purpose @ Pipple — Mar 2, 2023 · 56 attendees · Eindhoven
-- ![EyeOn](assets/logos/eyeon.png){ width="16" } PyData Meetup: Demand Forecasting and Logistic Optimization @ EyeOn — Jan 26, 2023 · 38 attendees · Aarle-Rixtel
-
-**2022**
-
-- ![NumFOCUS](assets/logos/numfocus.png){ width="16" } PyData Eindhoven Conference — Dec 2, 2022 · HTC · ticket proceeds donated to NumFOCUS
-- ![DAF](assets/logos/daf.svg){ width="16" } PyData Automotive Meetup @ DAF — Oct 25, 2022 · 58 attendees · Eindhoven
-- ![VersionBay](assets/logos/versionbay.png){ width="16" } PyData Eindhoven Meetup — Back to Face-to-Face Meetups, hosted by VersionBay — Jul 21, 2022 · HTC 5
-
-**Talk playlists:** [2025](https://youtube.com/playlist?list=PLGVZCDnMOq0qE4NA_fkVLZABsRs8waMVC){ target=_blank rel="noreferrer noopener" } ·
-[2024](https://youtube.com/playlist?list=PLGVZCDnMOq0q7a2aoNP1au_1egfZEjGL6){ target=_blank rel="noreferrer noopener" } ·
-[2023](https://youtube.com/playlist?list=PLGVZCDnMOq0qkbJjIfppGO44yhDV2i4gR){ target=_blank rel="noreferrer noopener" }
-
-**Aftermovies:**
-
-<div class="yt-thumb-row" markdown="0">
-<a class="yt-thumb" href="https://youtu.be/Mcbhyi_egCk" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/pydata-aftermovie-2025.jpg" alt="PyData Eindhoven 2025 aftermovie"><span>2025</span></a>
-<a class="yt-thumb" href="https://youtu.be/M2LKrgDJ0Y8" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/pydata-aftermovie-2024.jpg" alt="PyData Eindhoven 2024 aftermovie"><span>2024</span></a>
-<a class="yt-thumb" href="https://youtu.be/9X15giuZ4-g" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/pydata-aftermovie-2023.jpg" alt="PyData Eindhoven 2023 aftermovie"><span>2023</span></a>
-<a class="yt-thumb" href="https://youtu.be/by8HA__fWKs" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/pydata-aftermovie-2022.jpg" alt="PyData Eindhoven 2022 aftermovie"><span>2022</span></a>
+<div class="ev-item" style="--ev-color:#2eab6d"><div class="ev-dot"></div>
+<p class="ev-date">May 19, 2026 · Utrecht</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/playwright.svg" alt="Playwright"> Playwright Evening @ ProRail</p>
+<p class="ev-meta">Free · 37 attendees · open-source testing with Playwright, "no sales, no marketing, no hiring, just technical talks"</p>
+<p class="ev-links">Also spoke: <a href="talks.md#top-10-lessons-learnt-in-adopting-playwright">Top 10 Lessons Learnt in Adopting Playwright</a></p>
 </div>
 
-[meetup.com/pydata-eindhoven](https://www.meetup.com/pydata-eindhoven/){ target=_blank rel="noreferrer noopener" }
-
-## ![AlgoSphere Eindhoven](assets/logos/algosphere.jpg){ width="40" } AlgoSphere Eindhoven
-
-**Lead Organizer** · Eindhoven Area, Netherlands :flag_nl:
-
-357 members · 4.7★ (46 ratings). *"Algorithm Excellence, Shared Experience"* — a sales-free technical community for algorithm development across MATLAB, Python, Julia, Rust, and more, with 6 other organizers. Formerly **MATLAB Coders** (founded May 2019 as a [hobby project](hobbies.md#matlab-coders)), rebranded AlgoSphere Eindhoven to reflect its broader, language-agnostic focus.
-
-- ![ASML](assets/logos/asml.png){ width="16" } **Challenges on Developing Real-Time Algorithms** — Oct 10, 2024 · Cafe 100 Watt, Stadsbrouwerij Eindhoven · 46 attendees · sponsored by ASML
-    - "20,000 Leagues Under MATLAB, Python and Julia: A Numerical Journey" — [Jorge Vieyra](https://www.linkedin.com/in/jorge-vieyra-76280542/){ target=_blank rel="noreferrer noopener" }, Julia Lead Engineer at ASML
-    - "War Stories with Sensor Fusion" — [Marcus Forte](https://www.linkedin.com/in/marcusdaviforte/){ target=_blank rel="noreferrer noopener" }, System Architect at Vanderlande / Sioux
-    - "Co-Design in Radio Astronomy, a Use Case in Fourier Domain Dedispersion" — Steven van der Vlugt, Researcher Computer Systems at ASTRON
-- **MATLABers Unite @ High Tech Campus** — Nov 21, 2023 · HTC Building 5 · 13 attendees
-    - "Making Your MATLAB Code Ready for Deployment Using C++ Code Generation" — [Co Melissant](https://www.linkedin.com/in/comelissant/){ target=_blank rel="noreferrer noopener" }, CTO & Senior Consultant
-    - "My Favourite New Features in MATLAB R2023a and R2023b" — Gareth Thomas
-- 11 further MATLAB Coders meetups, 2019–2021, in person around Eindhoven (Sioux, Avular, ICT, ALTEN) and online through the pandemic — including several "What's New in MATLAB" release talks by Gareth, see [Talks Given](talks.md)
-
-[meetup.com/algosphere](https://www.meetup.com/algosphere/){ target=_blank rel="noreferrer noopener" }
-
-## ![JuliaLang Eindhoven](assets/logos/julialang-eindhoven.jpg){ width="60" } JuliaLang Eindhoven
-
-**Organizer** · Eindhoven Area, Netherlands :flag_nl:
-
-362 members · 4.9★ (34 ratings), with 6 other organizers. A place for people passionate about Julia to share experiences in the Eindhoven region — no sales, no marketing, no recruiting, just technical people solving technical problems.
-
-- ![ASML](assets/logos/asml.png){ width="16" } **Julia x Rust Meetup Eindhoven** — Jun 17, 2025 · ASML · 46 attendees · with RustNL
-    - "Low-Level Shenanigans in a High-Level Language" — [Tim Besard](https://www.linkedin.com/in/tim-besard-6b766031/){ target=_blank rel="noreferrer noopener" }, JuliaHub
-    - "What Actually Are Attributes?" — Jana Dönszelmann, Hexcat / RustNL
-    - Panel discussion led by [Jorge Vieyra](https://www.linkedin.com/in/jorge-vieyra-76280542/){ target=_blank rel="noreferrer noopener" } (ASML) and Gareth Thomas (CGI)
-- ![Sioux](assets/logos/sioux.png){ width="16" } **Rust x Julia Meetup Eindhoven** — Mar 25, 2025 · Sioux Labs · 17 attendees · with RustNL
-    - "Julia in C World: Fast, Safe and Seamless" — Yury, ASML
-    - "Rust and Julia, ¿por qué no los dos?" — Thomas, Vention
-    - "Fearless Refactoring in Rust" — Martin, ROCSYS
-- **We will be at JuliaCon 2024!** — Jul 9, 2024 · Philips Stadium, Eindhoven · 7 attendees
-- ![Deltares](assets/logos/deltares.png){ width="16" } **Numerical Modeling with Julia @ Deltares** — Mar 6, 2024 · 50 attendees
-    - "Using Julia for Portable GPU Programming" — [Tim Besard](https://www.linkedin.com/in/tim-besard-6b766031/){ target=_blank rel="noreferrer noopener" }, JuliaHub
-    - "Hydrological Modelling in Julia with Ribasim" — Huite Bootsma, Deltares
-    - "Finite Element Modeling of Assets in Future Distribution Grids Using Julia" — Domenico Lahaye, TU Delft
-- **JuliaCon Local Eindhoven 2023** — Dec 1, 2023 · High Tech Campus · 8 attendees
-- **Positioning Julia** — Sep 28, 2023 · ALTEN · 38 attendees
-    - "Interactive Data Dashboards with Genie: Design to Deployment" — [Pere Giménez](https://www.linkedin.com/in/pere-gim%C3%A9nez-febrer-678235129/){ target=_blank rel="noreferrer noopener" }, Genie
-    - "Easiness of Algorithm Deployment" — [Evangelos Paradas](https://www.linkedin.com/in/evangelos-paradas/){ target=_blank rel="noreferrer noopener" }, ASML
-    - "Julia's Rise in the TIOBE Index" & "Code Quality Checkers in Julia" — [Paul Jansen](https://www.linkedin.com/in/paul-jansen-299429/){ target=_blank rel="noreferrer noopener" }, TIOBE
-- **Free Workshop: Interactive Web Apps in Julia with Genie** — Sep 28, 2023 · High Tech Campus · 15 attendees
-
-JuliaCon 2024 — the 11th annual JuliaCon — was held in Eindhoven, organized alongside the local Julia community:
-
-- [Full talks playlist — The 11th Annual JuliaCon (Eindhoven)](https://youtube.com/playlist?list=PLP8iPy9hna6R5gUZLbSZCZTGJ0uncLBfi){ target=_blank rel="noreferrer noopener" }
-
-<div class="yt-thumb-row" markdown="0">
-<a class="yt-thumb" href="https://youtu.be/8yxvoTsd3o0" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/juliacon2024-aftermovie.jpg" alt="JuliaCon 2024 aftermovie"><span>JuliaCon 2024</span></a>
-<a class="yt-thumb" href="https://youtu.be/9YfRd6sdI4Q" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/juliacon-local-2023-aftermovie.jpg" alt="JuliaCon Local Eindhoven 2023 aftermovie"><span>JuliaCon Local 2023</span></a>
+<div class="ev-item" style="--ev-color:#e53935"><div class="ev-dot"></div>
+<p class="ev-date">Mar 5, 2026 · High Tech Campus, Eindhoven</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/cgi.png" alt="CGI"> JAVA and Performance</p>
+<p class="ev-meta">Hosted with Marnix Kammer, including a CGI introduction segment.</p>
 </div>
 
-[meetup.com/julialang-eindhoven](https://www.meetup.com/julialang-eindhoven/){ target=_blank rel="noreferrer noopener" }
+<div class="ev-item" style="--ev-color:#2e7bcf"><div class="ev-dot"></div>
+<p class="ev-date">Jan 20, 2026 · ASML Building 7, Veldhoven</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/asml.png" alt="ASML"> Cloud Native @ASML: How to Scale Without Limits</p>
+</div>
 
-## ![Dutch Cloud Native & AI Community](assets/logos/dutch-cloud-native.jpg){ width="70" } Dutch Cloud Native & AI Community
+<p class="ev-year">2025</p>
 
-**Host** · Netherlands :flag_nl:
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">Dec 9, 2025 · Conference Center The Strip, HTC</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/pydata.png" alt="PyData"> PyData Eindhoven 2025</p>
+<p class="ev-meta">23 talks across Data Engineering, AI &amp; ML, and Sport Analytics (with PySport).</p>
+<div class="yt-thumb-row"><a class="yt-thumb" href="https://youtu.be/Mcbhyi_egCk" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/pydata-aftermovie-2025.jpg" alt="PyData Eindhoven 2025 aftermovie"><span>Aftermovie</span></a></div>
+<p class="ev-links"><a href="https://youtube.com/playlist?list=PLGVZCDnMOq0qE4NA_fkVLZABsRs8waMVC" target="_blank" rel="noreferrer noopener">Full 2025 talks playlist</a></p>
+</div>
 
-Co-hosts recurring evening events at ASML, pairing external speakers with networking and food.
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">Nov 18, 2025</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/pipple.png" alt="Pipple"> PyData x Pipple Meetup</p>
+<p class="ev-meta">13 attendees · "The Power of Data and AI in Practice"</p>
+</div>
 
-- ![ASML](assets/logos/asml.png){ width="16" } Cloud Native @ASML with Octopus: ArgoCD and more! — Sep 29, 2025 · ASML Global HQ, Veldhoven
-- ![ASML](assets/logos/asml.png){ width="16" } Cloud Native @ASML: How to scale without limits — Jan 20, 2026 · ASML Building 7, Veldhoven
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">Oct 23, 2025 · Utrecht</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/bigdatarepublic.png" alt="BigData Republic"> PyData Meetup @ BigData Republic</p>
+<p class="ev-meta">13 attendees.</p>
+<p class="ev-links">Included Gareth's own talk: <a href="talks.md#getting-started-with-soccer-analytics">Getting Started with Soccer Analytics</a></p>
+</div>
 
-[meetup.com/dutch-cloud-native](https://www.meetup.com/dutch-cloud-native/){ target=_blank rel="noreferrer noopener" }
+<div class="ev-item" style="--ev-color:#2e7bcf"><div class="ev-dot"></div>
+<p class="ev-date">Sep 29, 2025 · ASML Global HQ, Veldhoven</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/asml.png" alt="ASML"> Cloud Native @ASML with Octopus: ArgoCD and More!</p>
+</div>
 
-## ![Java](assets/logos/java.svg){ width="30" } JAVA Eindhoven
+<div class="ev-item" style="--ev-color:#7c4dff"><div class="ev-dot"></div>
+<p class="ev-date">Jun 17, 2025 · ASML</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/asml.png" alt="ASML"> Julia x Rust Meetup Eindhoven</p>
+<p class="ev-meta">46 attendees · with RustNL</p>
+<ul>
+<li>"Low-Level Shenanigans in a High-Level Language" — <a href="https://www.linkedin.com/in/tim-besard-6b766031/" target="_blank" rel="noreferrer noopener">Tim Besard</a>, JuliaHub</li>
+<li>"What Actually Are Attributes?" — Jana Dönszelmann, Hexcat / RustNL</li>
+<li>Panel discussion led by <a href="https://www.linkedin.com/in/jorge-vieyra-76280542/" target="_blank" rel="noreferrer noopener">Jorge Vieyra</a> (ASML) and Gareth Thomas (CGI)</li>
+</ul>
+</div>
 
-**Host** (with Marnix Kammer) · Eindhoven Area, Netherlands :flag_nl:
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">Apr 2, 2025</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/brightcape.png" alt="Bright Cape"> PyData Meetup @ Bright Cape</p>
+<p class="ev-meta">42 attendees · "Scalable AI &amp; Cloud Deployments"</p>
+</div>
 
-- ![CGI](assets/logos/cgi.png){ width="16" } JAVA and Performance — Mar 5, 2026 · High Tech Campus, Eindhoven · with a CGI introduction segment
+<div class="ev-item" style="--ev-color:#7c4dff"><div class="ev-dot"></div>
+<p class="ev-date">Mar 25, 2025 · Sioux Labs</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/sioux.png" alt="Sioux"> Rust x Julia Meetup Eindhoven</p>
+<p class="ev-meta">17 attendees · with RustNL</p>
+<ul>
+<li>"Julia in C World: Fast, Safe and Seamless" — Yury, ASML</li>
+<li>"Rust and Julia, ¿por qué no los dos?" — Thomas, Vention</li>
+<li>"Fearless Refactoring in Rust" — Martin, ROCSYS</li>
+</ul>
+</div>
 
-[luma.com/pb5zmwyk](https://luma.com/pb5zmwyk){ target=_blank rel="noreferrer noopener" }
+<p class="ev-year">2024</p>
 
-## ![Playwright](assets/logos/playwright.svg){ width="110" } Playwright Netherlands
+<div class="ev-item" style="--ev-color:#f9a825"><div class="ev-dot"></div>
+<p class="ev-date">Oct 10, 2024 · Cafe 100 Watt, Stadsbrouwerij Eindhoven</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/asml.png" alt="ASML"> Challenges on Developing Real-Time Algorithms</p>
+<p class="ev-meta">46 attendees · sponsored by ASML</p>
+<ul>
+<li>"20,000 Leagues Under MATLAB, Python and Julia: A Numerical Journey" — <a href="https://www.linkedin.com/in/jorge-vieyra-76280542/" target="_blank" rel="noreferrer noopener">Jorge Vieyra</a>, Julia Lead Engineer at ASML</li>
+<li>"War Stories with Sensor Fusion" — <a href="https://www.linkedin.com/in/marcusdaviforte/" target="_blank" rel="noreferrer noopener">Marcus Forte</a>, System Architect at Vanderlande / Sioux</li>
+<li>"Co-Design in Radio Astronomy, a Use Case in Fourier Domain Dedispersion" — Steven van der Vlugt, Researcher Computer Systems at ASTRON</li>
+</ul>
+</div>
 
-**Host** · Utrecht, Netherlands :flag_nl:
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">Sep 10, 2024 · AI Innovation Center, HTC</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/kickstartai.svg" alt="Kickstart.ai"> Cutting-Edge AI and Machine Learning Innovations, with Kickstart.ai</p>
+<p class="ev-meta">46 attendees.</p>
+</div>
 
-- Free: Playwright Evening @ ProRail — May 19, 2026 · Utrecht · 37 attendees · open-source testing with Playwright, "no sales, no marketing, no hiring, just technical talks" — also spoke on ["Top 10 Lessons Learnt in Adopting Playwright"](talks.md)
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">Jul 11, 2024 · Philips Stadium</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/pydata.png" alt="PyData"> PyData Eindhoven 2024</p>
+<div class="yt-thumb-row"><a class="yt-thumb" href="https://youtu.be/M2LKrgDJ0Y8" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/pydata-aftermovie-2024.jpg" alt="PyData Eindhoven 2024 aftermovie"><span>Aftermovie</span></a></div>
+<p class="ev-links"><a href="https://youtube.com/playlist?list=PLGVZCDnMOq0q7a2aoNP1au_1egfZEjGL6" target="_blank" rel="noreferrer noopener">Full 2024 talks playlist</a></p>
+</div>
 
-[luma.com/7xuqf1sj](https://luma.com/7xuqf1sj){ target=_blank rel="noreferrer noopener" }
+<div class="ev-item" style="--ev-color:#7c4dff"><div class="ev-dot"></div>
+<p class="ev-date">Jul 9, 2024 · Philips Stadium, Eindhoven</p>
+<p class="ev-title">We Will Be at JuliaCon 2024!</p>
+<p class="ev-meta">7 attendees · the 11th annual JuliaCon, held in Eindhoven and organized alongside the local Julia community.</p>
+<div class="yt-thumb-row"><a class="yt-thumb" href="https://youtu.be/8yxvoTsd3o0" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/juliacon2024-aftermovie.jpg" alt="JuliaCon 2024 aftermovie"><span>Aftermovie</span></a></div>
+<p class="ev-links"><a href="https://youtube.com/playlist?list=PLP8iPy9hna6R5gUZLbSZCZTGJ0uncLBfi" target="_blank" rel="noreferrer noopener">Full talks playlist — The 11th Annual JuliaCon</a> · Also gave <a href="talks.md#matlab-julia">MATLAB → Julia</a></p>
+</div>
 
-## FOSS4GNL
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">Mar 28, 2024 · HTC 60, hosted by NXP</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/nxp.svg" alt="NXP"> Effective Strategies for Optimizing Cloud Costs, with Eindhoven Data Community</p>
+</div>
 
-**Moderator** · Groningen, Netherlands :flag_nl:
+<div class="ev-item" style="--ev-color:#7c4dff"><div class="ev-dot"></div>
+<p class="ev-date">Mar 6, 2024</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/deltares.png" alt="Deltares"> Numerical Modeling with Julia @ Deltares</p>
+<p class="ev-meta">50 attendees.</p>
+<ul>
+<li>"Using Julia for Portable GPU Programming" — <a href="https://www.linkedin.com/in/tim-besard-6b766031/" target="_blank" rel="noreferrer noopener">Tim Besard</a>, JuliaHub</li>
+<li>"Hydrological Modelling in Julia with Ribasim" — Huite Bootsma, Deltares</li>
+<li>"Finite Element Modeling of Assets in Future Distribution Grids Using Julia" — Domenico Lahaye, TU Delft</li>
+</ul>
+</div>
 
-FOSS4GNL 2026 — Free and Open Source Software for Geospatial — a two-day conference and workshop event organized by OSGeo.nl and the Jantina Tammes School (RUG), Jul 8–9, 2026, in Groningen.
+<p class="ev-year">2023</p>
 
-[foss4g.nl](https://foss4g.nl){ target=_blank rel="noreferrer noopener" }
+<div class="ev-item" style="--ev-color:#7c4dff"><div class="ev-dot"></div>
+<p class="ev-date">Dec 1, 2023 · High Tech Campus</p>
+<p class="ev-title">JuliaCon Local Eindhoven 2023</p>
+<p class="ev-meta">8 attendees.</p>
+<div class="yt-thumb-row"><a class="yt-thumb" href="https://youtu.be/9YfRd6sdI4Q" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/juliacon-local-2023-aftermovie.jpg" alt="JuliaCon Local Eindhoven 2023 aftermovie"><span>Aftermovie</span></a></div>
+</div>
 
-## ![TEDx](assets/logos/tedxeindhoven.png){ width="60" } TEDxEindhoven
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">Nov 30, 2023</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/pydata.png" alt="PyData"> PyData Eindhoven 2023</p>
+<div class="yt-thumb-row"><a class="yt-thumb" href="https://youtu.be/9X15giuZ4-g" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/pydata-aftermovie-2023.jpg" alt="PyData Eindhoven 2023 aftermovie"><span>Aftermovie</span></a></div>
+<p class="ev-links"><a href="https://youtube.com/playlist?list=PLGVZCDnMOq0qkbJjIfppGO44yhDV2i4gR" target="_blank" rel="noreferrer noopener">Full 2023 talks playlist</a></p>
+</div>
 
-**Sponsor Manager** (part-time volunteer) · Eindhoven Area, Netherlands :flag_nl:
+<div class="ev-item" style="--ev-color:#f9a825"><div class="ev-dot"></div>
+<p class="ev-date">Nov 21, 2023 · HTC Building 5</p>
+<p class="ev-title">MATLABers Unite @ High Tech Campus</p>
+<p class="ev-meta">13 attendees.</p>
+<ul>
+<li>"Making Your MATLAB Code Ready for Deployment Using C++ Code Generation" — <a href="https://www.linkedin.com/in/comelissant/" target="_blank" rel="noreferrer noopener">Co Melissant</a>, CTO &amp; Senior Consultant</li>
+<li>"My Favourite New Features in MATLAB R2023a and R2023b" — Gareth Thomas</li>
+</ul>
+<p class="ev-links">Own talk: <a href="talks.md#my-favourite-new-features-in-matlab-r2023a-and-r2023b">My Favourite New Features in MATLAB R2023a and R2023b</a></p>
+</div>
 
-[tedxeindhoven.nl](https://www.tedxeindhoven.nl){ target=_blank rel="noreferrer noopener" }
+<div class="ev-item" style="--ev-color:#7c4dff"><div class="ev-dot"></div>
+<p class="ev-date">Sep 28, 2023 · ALTEN / High Tech Campus</p>
+<p class="ev-title">Positioning Julia &amp; Free Workshop: Interactive Web Apps in Julia with Genie</p>
+<p class="ev-meta">38 attendees (talks) · 15 attendees (workshop)</p>
+<ul>
+<li>"Interactive Data Dashboards with Genie: Design to Deployment" — <a href="https://www.linkedin.com/in/pere-gim%C3%A9nez-febrer-678235129/" target="_blank" rel="noreferrer noopener">Pere Giménez</a>, Genie</li>
+<li>"Easiness of Algorithm Deployment" — <a href="https://www.linkedin.com/in/evangelos-paradas/" target="_blank" rel="noreferrer noopener">Evangelos Paradas</a>, ASML</li>
+<li>"Julia's Rise in the TIOBE Index" &amp; "Code Quality Checkers in Julia" — <a href="https://www.linkedin.com/in/paul-jansen-299429/" target="_blank" rel="noreferrer noopener">Paul Jansen</a>, TIOBE</li>
+</ul>
+</div>
+
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">Sep 5, 2023 · Veghel</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/vanderlande.png" alt="Vanderlande"> PyData Meetup @ Vanderlande: ML Automation in the Logistics Domain</p>
+<p class="ev-meta">65 attendees.</p>
+</div>
+
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">May 25, 2023 · Veghel</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/jumbo.png" alt="Jumbo"> PyData Meetup @ Jumbo: Solving Business Problems with Python</p>
+<p class="ev-meta">52 attendees.</p>
+</div>
+
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">Apr 26, 2023</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/prodrive.svg" alt="Prodrive Technologies"> PyData Meetup @ Prodrive Technologies</p>
+<p class="ev-meta">39 attendees · "Python and Mechatronics"</p>
+</div>
+
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">Mar 2, 2023 · Eindhoven</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/pipple.png" alt="Pipple"> Python with Purpose @ Pipple</p>
+<p class="ev-meta">56 attendees.</p>
+</div>
+
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">Jan 26, 2023 · Aarle-Rixtel</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/eyeon.png" alt="EyeOn"> PyData Meetup: Demand Forecasting and Logistic Optimization @ EyeOn</p>
+<p class="ev-meta">38 attendees.</p>
+</div>
+
+<p class="ev-year">2022</p>
+
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">Dec 2, 2022 · HTC</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/numfocus.png" alt="NumFOCUS"> PyData Eindhoven Conference</p>
+<p class="ev-meta">Ticket proceeds donated to NumFOCUS.</p>
+<div class="yt-thumb-row"><a class="yt-thumb" href="https://youtu.be/by8HA__fWKs" target="_blank" rel="noreferrer noopener"><img src="assets/thumbnails/pydata-aftermovie-2022.jpg" alt="PyData Eindhoven 2022 aftermovie"><span>Aftermovie</span></a></div>
+</div>
+
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">Oct 25, 2022 · Eindhoven</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/daf.svg" alt="DAF"> PyData Automotive Meetup @ DAF</p>
+<p class="ev-meta">58 attendees.</p>
+</div>
+
+<div class="ev-item" style="--ev-color:#00bfa5"><div class="ev-dot"></div>
+<p class="ev-date">Jul 21, 2022 · HTC 5</p>
+<p class="ev-title"><img class="ev-logo" src="assets/logos/versionbay.png" alt="VersionBay"> PyData Eindhoven Meetup — Back to Face-to-Face Meetups</p>
+<p class="ev-meta">Hosted by VersionBay.</p>
+</div>
+
+<p class="ev-year">2019 – 2021</p>
+
+<div class="ev-item" style="--ev-color:#f9a825"><div class="ev-dot"></div>
+<p class="ev-date">2019 – 2021 · Eindhoven area &amp; online</p>
+<p class="ev-title">11 Further MATLAB Coders Meetups</p>
+<p class="ev-meta">In person around Eindhoven (Sioux, Avular, ICT, ALTEN) and online through the pandemic — including several "What's New in MATLAB" release talks.</p>
+<p class="ev-links"><a href="talks.md#whats-new-in-matlab-release-talks">"What's New in MATLAB" Release Talks</a> · Founded as <a href="hobbies.md#matlab-coders">MATLAB Coders</a>, May 2019</p>
+</div>
+
+</div>
+</div>
