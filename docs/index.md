@@ -78,11 +78,11 @@
         }
     }
 
-    // Dark theme cycles green -> orange -> blue -> green. Light theme drops
-    // orange and just merges green and blue (a softer teal blend), so it
-    // never reads as white or washes out against a light page.
-    var HUES_DARK = [140, 35, 220];
-    var HUES_LIGHT = [140, 220];
+    // Both themes stay within the blue family, cycling through cyan,
+    // sky, and indigo blue so the pattern keeps moving without ever
+    // reading as green/orange or washing out toward white.
+    var HUES_DARK = [195, 215, 235];
+    var HUES_LIGHT = [200, 220];
     function hueAt(phase, hues) {
         var len = hues.length;
         var p = ((phase % len) + len) % len;
