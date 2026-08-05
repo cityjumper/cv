@@ -30,12 +30,13 @@ The top engineering university in Portugal. Completed an MSc with a strong focus
 | [Code Clinic: Python](https://www.linkedin.com/learning/certificates/e143a4aa95b53936da062279873c54a2ce8f1ad9e5dbdcad6c8539526b947d2d){ target=_blank rel="noreferrer noopener" } | May 2019 |
 | [Programming Foundations: Refactoring Code](https://www.linkedin.com/learning/certificates/c88e6037a3c86322f6317c572d1c05f16b785fa191417bdff2940f79e7477dfc){ target=_blank rel="noreferrer noopener" } | May 2019 |
 
-## Anthropic Academy Certifications
+## ![Anthropic](assets/logos/anthropic.png){ width="40" } Anthropic Academy Certifications
 
 | Certification | Completed |
 |---|---|
 | Claude Code in Action | Aug 2026 |
 | Introduction to agent skills | Aug 2026 |
+| Introduction to Model Context Protocol | Aug 2026 |
 | Introduction to subagents | Aug 2026 |
 
 ## LinkedIn Learning Courses
