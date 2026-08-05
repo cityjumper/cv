@@ -164,16 +164,19 @@ def parse_testimonials(md_text: str) -> list[tuple[str, str, str]]:
 # Small inline icon set (Feather-style strokes) for the contact row.
 # ---------------------------------------------------------------------------
 
-def icon(paths: str) -> str:
+def icon(paths: str, color: str = "#ffffff") -> str:
+    # WeasyPrint doesn't reliably cascade the CSS `color` property into an
+    # embedded SVG's `currentColor`, so the color is baked in directly here
+    # rather than left as `currentColor` + a stylesheet rule.
     return (
-        '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+        f'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="{color}" '
         'stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">'
         f"{paths}</svg>"
     )
 
 
-def icon_filled(paths: str) -> str:
-    return f'<svg class="ic" viewBox="0 0 24 24" fill="currentColor">{paths}</svg>'
+def icon_filled(paths: str, color: str = "#ffffff") -> str:
+    return f'<svg class="ic" viewBox="0 0 24 24" fill="{color}">{paths}</svg>'
 
 
 ICON_MAIL = icon(
@@ -282,7 +285,7 @@ hr { border: none; border-top: 0.5pt solid #dde5ee; margin: 1em 0; }
 }
 .cv-header .contact span { display: inline-flex; align-items: center; gap: 5pt; white-space: nowrap; }
 .cv-header .contact a { color: #dbe6f2; }
-.ic { width: 10.5pt; height: 10.5pt; flex: none; color: #8fb3de; }
+.ic { width: 10.5pt; height: 10.5pt; flex: none; }
 
 /* ---------- Section kickers ---------- */
 h2.kicker {
@@ -746,7 +749,7 @@ def build_short_pdf() -> str:
 
     languages = [
         ("English", 4),
-        ("Portuguese", 3),
+        ("Portuguese", 4),
         ("Italian", 3),
         ("Dutch", 2),
     ]

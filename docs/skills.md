@@ -25,7 +25,7 @@ Self-rated on a simple scale, based on demonstrated experience across this CV:
 | Kubernetes | ★★★ | Applied in delivery work at [CGI/ProRail](experience.md#cgi-nederland) |
 | k6 | ★★★ | Load testing work at [CGI/ProRail](experience.md#cgi-nederland) |
 | Julia | ★★★ | Organizes JuliaLang Eindhoven, gave the ["MATLAB → Julia" talk at JuliaCon 2024](talks.md), and maintains [Julia Jokes](hobbies.md#built-maintain) |
-| Python | ★★★ | Chairs [PyData Eindhoven](events.md), a 1,200+ member data & Python community, for six years running |
+| Python | ★★★★ | Chairs [PyData Eindhoven](events.md), the largest paid AI event in Eindhoven, and a 1,200+ member data & Python community, for six years running |
 | NumPy | ★★ | Hosted an in-depth conversation with Ralf Gommers, Director of Quansight Labs, on [Inspiring Computing](podcast.md) |
 | FastAPI | ★★ | Used building web tooling for [VersionBay and side projects](hobbies.md#built-maintain) |
 | Embedded Systems & Code Generation (C/C++) | ★★★ | Early MathWorks work on rapid prototyping, automatic code generation, and MATLAB deployment into .NET/Java, plus the [Hardware-in-the-Loop talk](talks.md) |
