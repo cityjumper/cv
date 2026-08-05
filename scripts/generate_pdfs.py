@@ -114,7 +114,11 @@ def convert_tabs(body_md: str) -> str:
         title_html = md_inline(m.group("title"))
         lines = m.group("body").splitlines()
         dedented = [re.sub(r"^[ \t]{1,4}", "", l) for l in lines]
-        content_html = md_to_html("\n".join(dedented).strip("\n"))
+        content_md = "\n".join(dedented).strip("\n")
+        content_html = md_to_html(content_md)
+        url = first_link(content_md)
+        if url:
+            title_html = f'<a href="{url}">{title_html}</a>'
         return f'<div class="sub-role"><h4>{title_html}</h4>{content_html}</div>'
 
     return TAB_BLOCK_RE.sub(repl, body_md)
@@ -130,6 +134,14 @@ def parse_md_table(block: str) -> list[list[str]]:
     for line in lines[2:]:
         rows.append([c.strip() for c in line.strip().strip("|").split("|")])
     return rows
+
+
+FIRST_LINK_RE = re.compile(r"\[[^\]]+\]\((https?://[^)\s]+)\)")
+
+
+def first_link(md_text: str) -> str | None:
+    m = FIRST_LINK_RE.search(md_text)
+    return m.group(1) if m else None
 
 
 def parse_testimonials(md_text: str) -> list[tuple[str, str, str]]:
@@ -173,6 +185,18 @@ ICON_LINKEDIN = icon_filled(
 )
 ICON_PIN = icon(
     '<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>'
+)
+ICON_GITHUB = icon_filled(
+    '<path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.55 2.87 8.41 6.84 9.77.5.1.68-.22.68-.5 '
+    "0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.9-.63.07-.62.07-.62 "
+    "1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.36-2.22-.26-4.56-1.14-4.56-5.06 "
+    "0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.28 9.28 0 0 1 5 0c1.91-1.33 "
+    "2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 "
+    '1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.5A10.02 10.02 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/>'
+)
+ICON_LINK = icon_filled(
+    '<path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>'
+    '<path d="M5 5h5v2H7v10h10v-3h2v5H5V5z"/>'
 )
 
 
@@ -314,6 +338,7 @@ h3 { font-size: 10.6pt; margin: 0 0 0.15em 0; page-break-after: avoid; color: #0
 .tl-head { display: flex; align-items: center; gap: 7pt; margin-bottom: 1pt; page-break-after: avoid; }
 .tl-head img { height: 15pt; width: auto; }
 .tl-head h3 { margin: 0; }
+.tl-head h3 a, .sub-role h4 a { color: inherit; text-decoration: none; border-bottom: 0.5pt dotted #9db3c9; }
 .tl-item .role-line { font-size: 9.3pt; color: #3d4a58; margin: 0 0 0.3em 0; }
 .tl-item .role-line strong { color: #1b1f24; }
 .tl-item p { font-size: 9.3pt; }
@@ -408,6 +433,8 @@ def header_html() -> str:
 <div class="contact">
 <span>{ICON_MAIL}<a href="mailto:gareth.bj.thomas@gmail.com">gareth.bj.thomas@gmail.com</a></span>
 <span>{ICON_LINKEDIN}<a href="https://nl.linkedin.com/in/g-thomas">linkedin.com/in/g-thomas</a></span>
+<span>{ICON_GITHUB}<a href="https://github.com/cityjumper">github.com/cityjumper</a></span>
+<span>{ICON_LINK}<a href="https://cityjumper.github.io/cv/">cityjumper.github.io/cv</a></span>
 <span>{ICON_PIN}Eindhoven, Netherlands</span>
 </div>
 </div>
@@ -447,6 +474,12 @@ def experience_timeline_html(experience_md: str) -> str:
     for heading, body in split_h2_sections(rest_md):
         title, logo = parse_heading(heading)
         logo_html = f'<img src="{logo}" alt="">' if logo else ""
+        # Only auto-link single-company sections (not multi-role groups like
+        # "Entrepreneurial ventures", where the first link belongs to a sub-role).
+        if '=== "' not in body:
+            url = first_link(body)
+            if url:
+                title = f'<a href="{url}">{title}</a>'
         items.append(
             f'<div class="tl-item"><div class="tl-dot"></div>'
             f'<div class="tl-head">{logo_html}<h3>{title}</h3></div>'
@@ -625,10 +658,17 @@ SHORT_EXTRA_CSS = """
 .short-exp-item { margin-bottom: 5.5pt; }
 .short-exp-item .role-line { font-size: 8.7pt; margin: 0 0 1pt 0; }
 .short-exp-item .role-line strong { color: #0d2038; }
+.short-exp-item .role-line strong a { color: inherit; text-decoration: none; border-bottom: 0.5pt dotted #9db3c9; }
+.short-exp-item .exp-logo { height: 10pt; width: auto; max-width: 22pt; vertical-align: middle; margin-right: 4pt; object-fit: contain; }
 .short-exp-item .dates { color: #6c7887; font-weight: 400; }
 .short-exp-item .blurb { font-size: 8.3pt; line-height: 1.35; color: #4a5666; margin: 0; }
 .edu-mini { font-size: 8.3pt; line-height: 1.4; color: #2c3644; }
 .edu-mini strong { color: #0d2038; }
+.fine-print { font-size: 8.3pt; line-height: 1.4; color: #4a5666; margin: 0.25em 0; }
+.fine-print a, .mini-quote .attr a { color: #1a5fb4; }
+.mini-quote { font-size: 8.3pt; line-height: 1.35; font-style: italic; color: #2c3644; margin: 0.3em 0; }
+.mini-quote .attr { font-style: normal; color: #6c7887; }
+.mini-quote .attr strong { color: #1b1f24; }
 """
 
 
@@ -641,49 +681,64 @@ def build_short_pdf() -> str:
     condensed_about = ". ".join(sentences[:2]).rstrip(".") + "."
 
     # Hand-transcribed one-liners of the same roles documented in experience.md,
-    # condensed for a one-page summary (dates/titles verified against that file).
+    # condensed for a one-page summary (dates/titles/URLs verified against that
+    # file and network.md, so links point at the same companies described there).
     roles = [
         (
             "CGI Nederland",
             "Consultant",
             "Jan 2026 – Present",
             "Delivery &amp; consulting in the Eindhoven area, incl. front-end testing for ProRail.",
+            "assets/logos/cgi.png",
+            "https://www.cgi.com/nl/en",
         ),
         (
             "CGI Nederland",
             "Director Consulting Services",
             "Mar 2025 – Feb 2026",
             "Led a 17-person consulting practice against a &euro;4M+ sales target.",
+            "assets/logos/cgi.png",
+            "https://www.cgi.com/nl/en",
         ),
         (
             "VersionBay",
             "Co-Founder",
             "Nov 2018 – Mar 2025",
             "Ran the company for 6.5 years; clients included ASML, DNB and ESA.",
+            "assets/logos/versionbay.png",
+            "https://versionbay.com/",
         ),
         (
             "Open iT, Inc.",
             "Country Manager Benelux",
             "Jan 2020 – Sep 2021",
             "Ran the Benelux territory alongside VersionBay.",
+            "assets/logos/openit.png",
+            "https://www.openit.com/",
         ),
         (
             "MathWorks",
             "Application Engineer → Business Development Manager",
             "Jan 2009 – Sep 2018",
             "9.5 years; led MathWorks&rsquo; global Academic strategy.",
+            "assets/logos/mathworks.png",
+            "https://www.mathworks.com/",
         ),
         (
             "Oceanscan",
             "Software Engineer",
             "Jan 2007 – Dec 2008",
             "Sonar GUI to acoustic signal-processing system integration.",
+            "assets/logos/oceanscan.png",
+            "https://www.oceanscan.com/",
         ),
         (
             "Altran CIS",
             "Consultant",
             "Dec 2005 – Dec 2006",
             "Telecom access-network design, implementation &amp; testing.",
+            "assets/logos/altran.svg",
+            "https://www.altran.com/",
         ),
     ]
 
@@ -719,10 +774,20 @@ def build_short_pdf() -> str:
 
     exp_html = "".join(
         '<div class="short-exp-item">'
-        f'<div class="role-line"><strong>{company}</strong> — {role} <span class="dates">({dates})</span></div>'
+        f'<div class="role-line"><img class="exp-logo" src="{logo}" alt="">'
+        f'<strong><a href="{url}">{company}</a></strong> — {role} <span class="dates">({dates})</span></div>'
         f'<p class="blurb">{blurb}</p>'
         "</div>"
-        for company, role, dates, blurb in roles
+        for company, role, dates, blurb, logo, url in roles
+    )
+
+    testimonials = {name: (quote, role) for quote, name, role in parse_testimonials(index_md)}
+    pick_names = ["Duarte Antunes", "Caspar Perik"]
+    quotes_html = "".join(
+        f'<p class="mini-quote">&ldquo;{md_inline(testimonials[name][0])}&rdquo; '
+        f'<span class="attr">&mdash; <strong>{name}</strong>, {testimonials[name][1]}</span></p>'
+        for name in pick_names
+        if name in testimonials
     )
 
     chips_html = "".join(f'<span class="chip">{s}</span>' for s in top_skills)
@@ -752,14 +817,19 @@ def build_short_pdf() -> str:
 </div>
 """
 
+    site = "https://cityjumper.github.io/cv"
     main = f"""
 <div class="short-main">
 <h2 class="kicker">Experience</h2>
 {exp_html}
-<h2 class="kicker">Community &amp; Recognition</h2>
-<p style="font-size:8.6pt; color:#4a5666;">Chairs PyData Eindhoven (6+ yrs, 1,200+ members) &middot; co-hosts the Inspiring Computing podcast &middot; MATLAB Jokes toolbox featured as a MathWorks Pick of the Week (Oct 2025) &middot; organizes/moderates six technical communities across Eindhoven.</p>
-<h2 class="kicker">Certifications</h2>
-<p style="font-size:8.6pt; color:#4a5666;"><strong>Anthropic Academy:</strong> Claude Code in Action, Introduction to Agent Skills, Introduction to MCP, Introduction to Subagents (Aug 2026). <strong>LinkedIn Learning:</strong> 12 certifications and 691 courses completed 2017&ndash;2026, spanning AI, DevOps, and leadership.</p>
+<h2 class="kicker">Community, Recognition &amp; Certifications</h2>
+<p class="fine-print">Chairs <a href="https://www.meetup.com/pydata-eindhoven/">PyData Eindhoven</a> &mdash; the largest paid AI event in Eindhoven (~350 attendees, 6+ yrs) &middot; hosts the <a href="https://www.inspiringcomputing.com/2107763/episodes">Inspiring Computing</a> podcast &middot; MATLAB Jokes toolbox featured as a <a href="https://blogs.mathworks.com/pick/2025/10/15/jokes-in-matlab-learn-about-contributing-to-a-matlab-toolbox/">MathWorks Pick of the Week</a> (Oct 2025) &middot; organizes/moderates six technical communities across Eindhoven.</p>
+<p class="fine-print"><strong>Anthropic Academy:</strong> Claude Code in Action, Introduction to Agent Skills, Introduction to MCP, Introduction to Subagents (Aug 2026). <strong>LinkedIn Learning:</strong> 12 certifications and 691 courses completed 2017&ndash;2026, spanning AI, DevOps, and leadership.</p>
+<h2 class="kicker">What People Say</h2>
+{quotes_html}
+<h2 class="kicker">Beyond Work</h2>
+<p class="fine-print">Born in South Africa; has since lived in the Netherlands, Singapore, Hong Kong, Macau, Portugal, and Scotland &middot; visited 60+ countries, incl. the Trans-Siberian Railway &middot; passionate go-kart racer &middot; holds a US patent from the MathWorks years.</p>
+<p class="fine-print">More online: <a href="{site}/talks/">Talks Given</a> &middot; <a href="{site}/podcast/">Podcast Episodes</a> &middot; <a href="{site}/hobbies/">Hobbies</a> &middot; <a href="{site}/">full CV site</a>.</p>
 </div>
 """
 

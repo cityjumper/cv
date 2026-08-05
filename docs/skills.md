@@ -30,7 +30,7 @@ Self-rated on a simple scale, based on demonstrated experience across this CV:
 | FastAPI | ★★ | Used building web tooling for [VersionBay and side projects](hobbies.md#built-maintain) |
 | Embedded Systems & Code Generation (C/C++) | ★★★ | Early MathWorks work on rapid prototyping, automatic code generation, and MATLAB deployment into .NET/Java, plus the [Hardware-in-the-Loop talk](talks.md) |
 | Rust | ★★ | Maintains [Rust Jokes](hobbies.md#built-maintain) and co-led the Julia/Rust ecosystem panel at the [Julia x Rust Meetup Eindhoven](events.md) |
-| Claude Code | ★★★ | Used extensively to build and maintain this CV site |
+| Claude Code | ★★★★ | Used extensively to build and maintain this CV site, including designing and generating the custom two-column and timeline-based print/PDF layouts with WeasyPrint |
 | GitHub Copilot | ★★ | Part of daily AI-accelerated development workflow |
 | LM Studio | ★★ | Local LLM tooling for experimentation |
 | Ollama | ★★ | Local LLM tooling for experimentation |
