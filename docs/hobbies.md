@@ -39,6 +39,8 @@ Founded in May 2019 as a hobby project — a community for MATLAB enthusiasts to
 
 Maintainer of a small family of joke tools for conference and meetup MCs — "not racist, not sexual, not political," just a smile between talks. MATLAB Jokes started life as a 90-minute exercise in shipping a MATLAB toolbox from scratch to MATLAB Central File Exchange and the Add-Ons panel.
 
+Featured by MathWorks as a [Pick of the Week](https://blogs.mathworks.com/pick/2025/10/15/jokes-in-matlab-learn-about-contributing-to-a-matlab-toolbox/){ target=_blank rel="noreferrer noopener" } (Oct 2025), highlighting it as a case study for contributing to a MATLAB toolbox.
+
 [MATLAB Jokes on GitHub](https://github.com/versionbaygt/MATLABJokes){ target=_blank rel="noreferrer noopener" } ·
 [on File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/172039-jokes-in-matlab/){ target=_blank rel="noreferrer noopener" } ·
 [Julia Jokes on GitHub](https://github.com/cityjumper/Jokes.jl){ target=_blank rel="noreferrer noopener" } ·
